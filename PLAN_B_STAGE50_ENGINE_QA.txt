@@ -1,0 +1,37 @@
+PASS | Final release title and version exposed
+PASS | Final acceptance summary is visible in Settings
+PASS | Stage 50 stylesheet is linked and precached
+PASS | PWA relative manifest resolves correctly on GitHub Pages repository subpath
+PASS | PWA diagnostic accepts nested in-scope page paths
+PASS | PWA diagnostic rejects a start URL outside scope
+PASS | Service worker uses new final shell cache
+PASS | Stage 42 audio cache remains preserved
+PASS | Deployment-relative PWA validator is imported and precached
+PASS | PWA manifest is relative to project scope
+PASS | App remains local-first without false cloud/AI claims
+PASS | Backup clearly discloses IndexedDB audio separation
+PASS | Objective accuracy returns internal 0–10 metric
+PASS | Reading accuracy is weighted 50 percent
+PASS | Writing combines Task 1 and Task 2 at 1:2 weighting
+PASS | Task 1-only daily writing needs only Task 1 score
+PASS | Task 2-only daily writing needs only Task 2 score
+PASS | Both-task writing rejects missing companion task score
+PASS | Equal-criteria writing/speaking keeps four equal criteria
+PASS | Assessment source and internal scale remain explicit
+PASS | Adaptive baseline never claims mastery
+PASS | Adaptive profile preserves four mandatory skills
+PASS | Adaptive plan does not impose a time quota
+PASS | All ten primary labs remain registered
+PASS | Lab transfer validates a new objective item only with evidence
+PASS | Vocabulary exact-token matching avoids substring false positives
+PASS | Daily vocabulary gate needs 6/8 + 2 terms + 12 words
+PASS | Again returns SRS card for same-day retry
+PASS | SRS rejects unsupported rating
+PASS | Backup merge keeps new default keys while importing old settings
+PASS | Backup validator rejects unsafe prototype key
+PASS | Backup validator rejects missing required state maps
+PASS | Transcript segment-aware lifecycle and manual fallback remain in runtime
+PASS | Task 1 visual inspector remains connected
+PASS | Four daily skills remain mandatory in final curriculum
+PASS | No official IELTS band conversion or live AI claim
+STAGE 50 ENGINE QA: 36/36 PASS

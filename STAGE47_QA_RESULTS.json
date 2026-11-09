@@ -1,0 +1,213 @@
+{
+  "stage": 47,
+  "passed": 40,
+  "total": 40,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Stage 47 title and stylesheet are wired",
+      "passed": true,
+      "detail": "HTML title + CSS link"
+    },
+    {
+      "name": "Task 1 intelligence module is imported and used",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 47 companion, four-skill and Task 1 UI are present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 47 responsive visual styles exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Service worker precaches Stage 47 assets and preserves audio cache",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84-day curriculum intact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Four compulsory skill modules exist for all 84 days",
+      "passed": true,
+      "detail": "84 × 4 = 336 plan modules"
+    },
+    {
+      "name": "84 daily in-app resource maps exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Four daily in-app resource packs exist on every day",
+      "passed": true,
+      "detail": "84 × 4 = 336 in-app skill resource slots"
+    },
+    {
+      "name": "61-article supplementary library remains",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84 individual listening companion assignments exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All 84 assignments have exact official HTTPS URLs and item metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Each daily resource map carries the identical selected companion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Daily companion rotation uses 28 unique selected items",
+      "passed": true,
+      "detail": "84 day slots; repeats use a distinct listening focus"
+    },
+    {
+      "name": "Curated catalogue contains 36 individually named official resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Daily provider mix includes TED-Ed, TED, Huberman Lab and DOAC",
+      "passed": true,
+      "detail": "{'TED-Ed': 33, 'TED': 35, 'Huberman Lab': 10, 'The Diary of a CEO': 6}"
+    },
+    {
+      "name": "All five requested provider families are documented",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Joe Rogan is optional preview-only, never compulsory",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "External media is not downloaded or rehosted",
+      "passed": true,
+      "detail": "Official provider URLs only; no third-party media copies"
+    },
+    {
+      "name": "All 84 Task 1 visuals are present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Six Task 1 visual families have exactly 14 datasets each",
+      "passed": true,
+      "detail": "{'line_graph': 14, 'bar_chart': 14, 'pie_chart': 14, 'table': 14, 'process': 14, 'map': 14}"
+    },
+    {
+      "name": "All Task 1 sets are labelled original fictional practice data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All 84 Task 2 prompts remain present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All four skill content records exist in 84 core days",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84 MP3 tracks remain present and non-empty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Task 1 visual engine: 84-day data + six chart fixtures + edge cases",
+      "passed": true,
+      "detail": "{\n  \"version\": \"47.0.0\",\n  \"tests\": 19,\n  \"passed\": 19,\n  \"failed\": 0,\n  \"chartDays\": 84,\n  \"typeCounts\": {\n    \"line_graph\": 14,\n    \"bar_chart\": 14,\n    \"pie_chart\": 14,\n    \"table\": 14,\n    \"process\": 14,\n    \"map\": 14\n  },\n  \"cases\": [\n    \"84-day dataset validation\",\n    \"6 visual guides\",\n    \"6 valid visual fixture analysis\",\n    \"pie total integrity\",\n    \"process minimum stages\",\n    \"map pair integrity\",\n    \"series/label alignment\"\n  ]\n}"
+    },
+    {
+      "name": "84-row resource mapping CSV is complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84-row mapping agrees with app-data assignments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "336-row mandatory skill resource audit is complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Each of 84 days has exactly 4 skill audit rows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Every daily resource-audit row has a primary in-app material and source/rights note",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84-row Task 1 visual audit is complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Task 2 prompts are 84 distinct originals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Speaking daily pack has 252 Part 1, 84 Part 2 and 252 Part 3 prompts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JavaScript syntax · assets/js/app.js",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax · assets/js/core/task1-intelligence.js",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax · assets/js/core/adaptive-engine.js",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax · assets/js/core/lab-quality-engine.js",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax · sw.js",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "HTTP local-server smoke test: 11 core resources return 200",
+      "passed": true,
+      "detail": "/=200; /index.html=200; /assets/css/stage47.css=200; /assets/css/stage48.css=200; /assets/js/app.js=200; /assets/js/core/task1-intelligence.js=200; /assets/js/core/vocabulary-engine.js=200; /data/app-data.json=200; /sw.js=200; /audio/listening-day-01.mp3=200; /audio/listening-day-84.mp3=200"
+    }
+  ],
+  "limitations": [
+    "Static/data and local HTTP QA do not replace browser E2E or physical Android acceptance.",
+    "External video playback and caption availability can change and must be checked in provider players.",
+    "JRE remains optional preview-only; it is not part of compulsory daily listening."
+  ]
+}

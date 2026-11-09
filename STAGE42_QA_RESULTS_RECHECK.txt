@@ -1,0 +1,26 @@
+STAGE 42 STATIC QA: 23/23 PASS
+PASS | External app-data JSON remains valid and contains 84 days | parsed
+PASS | External module references are present
+PASS | Stage 42 release marker present
+PASS | Four transcript targets are explicitly scoped
+PASS | Final recognition results are committed
+PASS | Interim text is displayed but not saved as final
+PASS | Restart deduplication uses stable session base
+PASS | Recognition restart loop is bounded
+PASS | No-speech loop is bounded
+PASS | Manual and keyboard fallback controls exist
+PASS | Permission/network/unsupported errors are mapped
+PASS | Final transcripts autosave through app state
+PASS | Manual edits stop conflicting live ASR
+PASS | Speaking audio recording function is preserved
+PASS | Existing general Speaking recording remains intact
+PASS | Server STT limitation is disclosed in metadata
+PASS | Stage 42 UI status panel is present
+PASS | Service worker Stage 46 shell version, adaptive module and Stage 42 audio cache are preserved
+PASS | Existing app storage namespace is preserved
+PASS | External application ES module syntax | node --check passed
+PASS | Service worker JavaScript syntax | node --check passed
+PASS | Transcript helper unit tests | 8 pure helper assertions PASS
+PASS | Mocked recognition lifecycle (final commit, reconnect, stop, manual protection) | Recognition lifecycle simulation PASS
+
+LIMITATION: This script does not grant microphone permission and does not verify real device/browser speech recognition. Complete the Samsung A14 acceptance checklist in STAGE42_TRANSCRIPT_ACCEPTANCE_UZ.md.

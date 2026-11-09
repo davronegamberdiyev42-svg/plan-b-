@@ -1,0 +1,81 @@
+{
+  "stage": "46",
+  "release": "46.0.0",
+  "qa": {
+    "stage46_engine": {
+      "passed": 47,
+      "total": 47
+    },
+    "stage41": {
+      "passed": 21,
+      "total": 21
+    },
+    "stage42": {
+      "passed": 23,
+      "total": 23
+    },
+    "stage43": {
+      "passed": 39,
+      "total": 39
+    },
+    "stage44": {
+      "passed": 30,
+      "total": 30
+    },
+    "stage45": {
+      "passed": 33,
+      "total": 33
+    },
+    "browser_e2e": "NOT_COMPLETED",
+    "samsung_a14_acceptance": "PENDING",
+    "local_http_smoke": {
+      "passed": 10,
+      "total": 10,
+      "scope": "static resources only, not browser E2E"
+    }
+  },
+  "content_baseline": {
+    "days": 84,
+    "resource_days": 84,
+    "four_skill_cards": 336,
+    "skill_cards_by_skill": {
+      "reading": 84,
+      "listening": 84,
+      "writing": 84,
+      "speaking": 84
+    },
+    "reading_passages": 84,
+    "reading_questions": 840,
+    "listening_scripts": 84,
+    "listening_audio_references": 84,
+    "listening_questions": 420,
+    "listening_mp3_files_ok": 84,
+    "speaking_part1_questions": 252,
+    "speaking_part2_cards": 84,
+    "speaking_part3_questions": 252,
+    "task1_prompts": 84,
+    "task2_prompts": 84,
+    "task1_visual_types": {
+      "line_graph": 14,
+      "bar_chart": 14,
+      "pie_chart": 14,
+      "table": 14,
+      "process": 14,
+      "map": 14
+    },
+    "task1_dataset_source_types": {
+      "original_practice_dataset": 84
+    },
+    "article_count_metadata": 61,
+    "word_count_metadata": 19000,
+    "sentence_patterns": 864,
+    "reading_source_packs": 12,
+    "day_specific_listening_external_video_urls": 0
+  },
+  "stage47": "SPECIFIED_NOT_STARTED_AWAITING_USER_APPROVAL",
+  "notes": [
+    "Existing 84 in-app listening MP3/script/question sets remain core; audio is original synthetic practice, not official IELTS.",
+    "Existing Task 1 figures are original fictional data.",
+    "No Barrons charts will be copied; original IELTS-style visuals will be used."
+  ]
+}

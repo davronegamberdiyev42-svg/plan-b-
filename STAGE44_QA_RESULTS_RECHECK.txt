@@ -1,0 +1,31 @@
+STAGE 44 QA: 30/30 PASS
+PASS | Scoring engine module exists and is imported by app runtime | separate ES module import
+PASS | Stage 46 service-worker shell generation | Stage 46 shell cache
+PASS | Scoring engine precached for offline use | core module is included in service-worker CORE
+PASS | Audio cache continuity preserved | Stage 42 listening cache key retained
+PASS | Stage 44 title exposed in app shell | document title
+PASS | Assessment history storage has backward-safe defaults | new data fields default without replacing old state
+PASS | Daily self-rating is stored separately from criterion score | reflection no longer overwrites objective/criterion score
+PASS | Reading objective answer-key score replaces self-rating for Accuracy | answer-key accuracy is first criterion
+PASS | Reading evidence, strategy and transfer each require explicit notes | 3 evidence fields
+PASS | Authentic Listening does not claim missing provider answer key | four learner-reviewed criteria for authentic source
+PASS | Optional offline Listening quiz remains separately identified | raw companion quiz is stored separately
+PASS | Writing criterion review uses four criteria | Task 1/Task 2 separate review
+PASS | Writing overall score applies Task 2 double weight | combined index uses 1:2
+PASS | Writing daily completion follows each day task1/task2/both requirement | daily assigned task can complete alone; both days require both reviews
+PASS | Speaking requires audio for pronunciation evidence | audio provenance stored
+PASS | Stage 35 writing PowerLab uses evidence-backed four-criterion review | separate practice mode assessment
+PASS | Stage 35 speaking PowerLab requires saved audio and four anchors | pronunciation review is audio-gated
+PASS | Assessment records keep source label, version, criterion evidence and scale | provenance-aware records
+PASS | No official IELTS band conversion in scoring engine | internal 0–10 practice scale only
+PASS | Saved assessment summary shown in four skill studios | source and evidence coverage visible after save
+PASS | Evidence coverage is explicitly not statistical confidence | not a statistical confidence interval
+PASS | AI/examiner provenance not falsely claimed as connected | no false live AI scoring claim in metadata
+PASS | 84-day Academic curriculum remains intact | plan=84, core=84
+PASS | All four mandatory skill modules remain on all days | 336/336 skill modules
+PASS | Writing daily task map contains only task1/task2/both | task1=17, task2=64, both=3
+PASS | 61-article library remains intact | 61 articles
+PASS | JavaScript syntax: application runtime | node --check PASS
+PASS | JavaScript syntax: scoring engine | node --check PASS
+PASS | JavaScript syntax: service worker | node --check PASS
+PASS | Executable scoring engine math and provenance tests | Scoring math and provenance assertions PASS

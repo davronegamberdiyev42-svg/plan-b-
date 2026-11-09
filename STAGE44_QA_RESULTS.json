@@ -1,0 +1,166 @@
+{
+  "stage": 44,
+  "release": "44.0.0",
+  "date": "2026-11-08",
+  "passed": 30,
+  "total": 30,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "Scoring engine module exists and is imported by app runtime",
+      "passed": true,
+      "detail": "separate ES module import"
+    },
+    {
+      "name": "Stage 47 service-worker shell generation",
+      "passed": true,
+      "detail": "Stage 46 shell cache"
+    },
+    {
+      "name": "Scoring engine precached for offline use",
+      "passed": true,
+      "detail": "core module is included in service-worker CORE"
+    },
+    {
+      "name": "Audio cache continuity preserved",
+      "passed": true,
+      "detail": "Stage 42 listening cache key retained"
+    },
+    {
+      "name": "Stage 47 title exposed in app shell",
+      "passed": true,
+      "detail": "document title"
+    },
+    {
+      "name": "Assessment history storage has backward-safe defaults",
+      "passed": true,
+      "detail": "new data fields default without replacing old state"
+    },
+    {
+      "name": "Daily self-rating is stored separately from criterion score",
+      "passed": true,
+      "detail": "reflection no longer overwrites objective/criterion score"
+    },
+    {
+      "name": "Reading objective answer-key score replaces self-rating for Accuracy",
+      "passed": true,
+      "detail": "answer-key accuracy is first criterion"
+    },
+    {
+      "name": "Reading evidence, strategy and transfer each require explicit notes",
+      "passed": true,
+      "detail": "3 evidence fields"
+    },
+    {
+      "name": "Authentic Listening does not claim missing provider answer key",
+      "passed": true,
+      "detail": "four learner-reviewed criteria for authentic source"
+    },
+    {
+      "name": "Optional offline Listening quiz remains separately identified",
+      "passed": true,
+      "detail": "raw companion quiz is stored separately"
+    },
+    {
+      "name": "Writing criterion review uses four criteria",
+      "passed": true,
+      "detail": "Task 1/Task 2 separate review"
+    },
+    {
+      "name": "Writing overall score applies Task 2 double weight",
+      "passed": true,
+      "detail": "combined index uses 1:2"
+    },
+    {
+      "name": "Writing daily completion follows each day task1/task2/both requirement",
+      "passed": true,
+      "detail": "daily assigned task can complete alone; both days require both reviews"
+    },
+    {
+      "name": "Speaking requires audio for pronunciation evidence",
+      "passed": true,
+      "detail": "audio provenance stored"
+    },
+    {
+      "name": "Stage 35 writing PowerLab uses evidence-backed four-criterion review",
+      "passed": true,
+      "detail": "separate practice mode assessment"
+    },
+    {
+      "name": "Stage 35 speaking PowerLab requires saved audio and four anchors",
+      "passed": true,
+      "detail": "pronunciation review is audio-gated"
+    },
+    {
+      "name": "Assessment records keep source label, version, criterion evidence and scale",
+      "passed": true,
+      "detail": "provenance-aware records"
+    },
+    {
+      "name": "No official IELTS band conversion in scoring engine",
+      "passed": true,
+      "detail": "internal 0–10 practice scale only"
+    },
+    {
+      "name": "Saved assessment summary shown in four skill studios",
+      "passed": true,
+      "detail": "source and evidence coverage visible after save"
+    },
+    {
+      "name": "Evidence coverage is explicitly not statistical confidence",
+      "passed": true,
+      "detail": "not a statistical confidence interval"
+    },
+    {
+      "name": "AI/examiner provenance not falsely claimed as connected",
+      "passed": true,
+      "detail": "no false live AI scoring claim in metadata"
+    },
+    {
+      "name": "84-day Academic curriculum remains intact",
+      "passed": true,
+      "detail": "plan=84, core=84"
+    },
+    {
+      "name": "All four mandatory skill modules remain on all days",
+      "passed": true,
+      "detail": "336/336 skill modules"
+    },
+    {
+      "name": "Writing daily task map contains only task1/task2/both",
+      "passed": true,
+      "detail": "task1=17, task2=64, both=3"
+    },
+    {
+      "name": "61-article library remains intact",
+      "passed": true,
+      "detail": "61 articles"
+    },
+    {
+      "name": "JavaScript syntax: application runtime",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: scoring engine",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: service worker",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "Executable scoring engine math and provenance tests",
+      "passed": true,
+      "detail": "Scoring math and provenance assertions PASS"
+    }
+  ],
+  "not_covered": [
+    "Real human IELTS examiner calibration and inter-rater reliability study",
+    "Live AI backend integration; this release records self-review and answer-key provenance only",
+    "Physical Samsung A14/browser/audio/microphone acceptance",
+    "Full Chromium end-to-end UI execution"
+  ]
+}

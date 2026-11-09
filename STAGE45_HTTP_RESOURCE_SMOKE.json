@@ -1,0 +1,55 @@
+{
+  "passed": 8,
+  "total": 8,
+  "all_passed": true,
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "content_type": "text/html",
+      "size": 1891
+    },
+    {
+      "path": "assets/css/app.css",
+      "status": 200,
+      "content_type": "text/css",
+      "size": 91566
+    },
+    {
+      "path": "assets/js/app.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 820207
+    },
+    {
+      "path": "assets/js/core/lab-quality-engine.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 10468
+    },
+    {
+      "path": "data/app-data.json",
+      "status": 200,
+      "content_type": "application/json",
+      "size": 15201479
+    },
+    {
+      "path": "audio/listening-day-01.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "size": 725420
+    },
+    {
+      "path": "manifest.webmanifest",
+      "status": 200,
+      "content_type": "application/manifest+json",
+      "size": 2106
+    },
+    {
+      "path": "sw.js",
+      "status": 200,
+      "content_type": "text/javascript",
+      "size": 3322
+    }
+  ]
+}

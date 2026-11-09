@@ -1,0 +1,33 @@
+{
+  "version": "46.0.0",
+  "tests": 47,
+  "passed": 47,
+  "failed": 0,
+  "cases": [
+    "empty baseline",
+    "minimum sample gate",
+    "objective repair",
+    "strong objective stretch",
+    "criterion repair",
+    "self-review non-mastery",
+    "repeated error",
+    "trend recovery",
+    "listening key unavailable",
+    "lab objective evidence",
+    "four-skill evidence coverage",
+    "gentle/full adaptive plan",
+    "no time limit",
+    "mandatory curriculum preserved",
+    "application import wiring",
+    "Intelligence tab wiring",
+    "advisor markup",
+    "adaptive plan wiring",
+    "time limit disabled",
+    "release metadata",
+    "no false independent mastery UI label",
+    "criterion-map UI label",
+    "service worker module precache",
+    "legacy audio cache preserved",
+    "shell cache version"
+  ]
+}

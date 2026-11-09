@@ -1,0 +1,4 @@
+IELTS Boost Final Release 50.0.0
+Release date: 2026-11-09
+Product: 84-day IELTS Academic practice platform
+Acceptance: automated QA PASS 59/59; browser E2E BLOCKED_BY_ENVIRONMENT; Samsung A14 physical acceptance PENDING.

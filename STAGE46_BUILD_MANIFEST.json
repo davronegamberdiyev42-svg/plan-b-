@@ -1,0 +1,846 @@
+{
+  "release": "46.0.0",
+  "file_count": 168,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ANDROID_INSTALL_UZ.md",
+      "bytes": 2281,
+      "sha256": "406f2d458e16074d2935ff407d40d60a3532f905b9af823b8535f9d3ae52a9ee"
+    },
+    {
+      "path": "DEPLOY_TARGET.txt",
+      "bytes": 182,
+      "sha256": "e7754bc9ee9be93fcba476792e0ad3ec71ec64fb4e419cf6aa38bcd70dbc2137"
+    },
+    {
+      "path": "QA_REPORT_UZ.md",
+      "bytes": 5519,
+      "sha256": "78eac502a5ea34f2e82ea072d449dbd0252c2d024e90d5ac055b6c5bd211e5a8"
+    },
+    {
+      "path": "README_UZ.md",
+      "bytes": 14327,
+      "sha256": "7d47b756770b3c994cc609fdcd5f94f096ad72ca6d46b2d10f44d5c4449345b1"
+    },
+    {
+      "path": "ROADMAP_STAGE46_TO_50_UZ.md",
+      "bytes": 5826,
+      "sha256": "f45ee7b17b8df7828c9479d37f00ccb5912c2be1c1e5de4f73099a85ee648196"
+    },
+    {
+      "path": "STAGE36_CONTENT_AUDIT.json",
+      "bytes": 1747,
+      "sha256": "f5bc97ecb8f2d3f490fd9d08803a10a6d8e75c9bc9be18bd736e852379c67ddc"
+    },
+    {
+      "path": "STAGE36_FEATURES_UZ.md",
+      "bytes": 2818,
+      "sha256": "c04dedb47930d4e00302c512c0910ca1759249535d6bf344e76de63e4523a297"
+    },
+    {
+      "path": "STAGE36_SOURCES_UZ.md",
+      "bytes": 2441,
+      "sha256": "76696bfca109ba783972b6af131dae9eac46c67e161fdfe8a72c022159bf2eb5"
+    },
+    {
+      "path": "STAGE38_FEATURES_UZ.md",
+      "bytes": 845,
+      "sha256": "b644cd406be2d53b2a932fa561dbb2774db522b8b622585ad6a875b8da044dd6"
+    },
+    {
+      "path": "STAGE38_SOURCES_UZ.md",
+      "bytes": 890,
+      "sha256": "b56f6d3480608d62a1b197628e5e5e8c2ec5f188a186f974eba012d9ff8ab02f"
+    },
+    {
+      "path": "STAGE39_FEATURES_UZ.md",
+      "bytes": 678,
+      "sha256": "47a9013b043cd5a75996e5845835c8ceb99c8086e6797c8a606d7c61f3c19e50"
+    },
+    {
+      "path": "STAGE39_SOURCES_UZ.md",
+      "bytes": 810,
+      "sha256": "b85b054436fe4ea0654c2459f96d2000600abd07cf0c9e017ee4c47a90f6373d"
+    },
+    {
+      "path": "STAGE40_FEATURES_UZ.md",
+      "bytes": 1985,
+      "sha256": "444dd55f8f1e169643ca4f0aaee3861e2efbcf8812d77e2155be82b88aa62a8c"
+    },
+    {
+      "path": "STAGE40_SOURCES_UZ.md",
+      "bytes": 940,
+      "sha256": "90783574b428aac478999aad51b2392bc431521931c0ee508bf791bb91021153"
+    },
+    {
+      "path": "STAGE41_FEATURES_UZ.md",
+      "bytes": 1082,
+      "sha256": "d62b930017c19e37f49eec7793a1245e1aaa521f03513bad1950941ccd08dce8"
+    },
+    {
+      "path": "STAGE41_FEATURE_INVENTORY_UZ.csv",
+      "bytes": 2283,
+      "sha256": "b27ef00ab7b3c8bdb6f32eedfd14e569172480fe7c2ca35a8bf149c5ef279fd5"
+    },
+    {
+      "path": "STAGE41_MASTER_AUDIT_UZ.md",
+      "bytes": 7785,
+      "sha256": "3069d78f4f29269eb406e0fc9a5ef11afe95d2e237eb44494a899748a8d9d3e4"
+    },
+    {
+      "path": "STAGE41_QA_RESULTS.json",
+      "bytes": 2941,
+      "sha256": "353069adef1cb36286d3bc72130ef662ca59e4a4610a15f102452828d94de054"
+    },
+    {
+      "path": "STAGE41_QA_RESULTS_RECHECK.txt",
+      "bytes": 1493,
+      "sha256": "f3aa23856a058b9c02b8044bc59513bd4df67eba329d32b7318f8e7a7942685c"
+    },
+    {
+      "path": "STAGE41_RELEASE_NOTES_UZ.md",
+      "bytes": 1054,
+      "sha256": "99af500926488ad2faeefbad166677ec119ca7bf0019879512d88ecc2b5a2938"
+    },
+    {
+      "path": "STAGE41_REQUIREMENTS_TRACEABILITY_UZ.md",
+      "bytes": 2816,
+      "sha256": "4a94a2b75a43313ec0d30d7b76ff9682aea063888929f2f14c19494068e14024"
+    },
+    {
+      "path": "STAGE42_MASTER_REPORT_UZ.md",
+      "bytes": 6615,
+      "sha256": "9f5172454b9b6f79c68c20f09b337d29fa630cbd179c4e33b193de349fe81375"
+    },
+    {
+      "path": "STAGE42_QA_RESULTS.json",
+      "bytes": 3269,
+      "sha256": "525c9303ae6e5277d753a3da48f32cac28336b768d815361f433899d34678f7e"
+    },
+    {
+      "path": "STAGE42_QA_RESULTS_RECHECK.txt",
+      "bytes": 1574,
+      "sha256": "ec7343f0599e9bd6c7835080c6e04b1b6a2c329e33136f154325b936e9fc457e"
+    },
+    {
+      "path": "STAGE42_RELEASE_NOTES_UZ.md",
+      "bytes": 1979,
+      "sha256": "fb7e91dfccefd98bd6ce531d0c63ad2726ad257ba3fda478be4ffeb12c4f3a89"
+    },
+    {
+      "path": "STAGE42_REQUIREMENTS_TRACEABILITY_UZ.md",
+      "bytes": 1593,
+      "sha256": "8f0f545f4b1d35de5b746261344f4f8253dcece241e09e41c9578df0d1146a99"
+    },
+    {
+      "path": "STAGE42_TRANSCRIPT_ACCEPTANCE_UZ.md",
+      "bytes": 3540,
+      "sha256": "e1508688c9488e83e1114540e54849ae71b83c262f456f81325544e42f12703b"
+    },
+    {
+      "path": "STAGE43_ARCHITECTURE_MANIFEST.json",
+      "bytes": 795,
+      "sha256": "adc051a9954c37c4ada159d474e5c2f6c99d5897035ab0ddb363d557d8c16790"
+    },
+    {
+      "path": "STAGE43_ARCHITECTURE_UZ.md",
+      "bytes": 5077,
+      "sha256": "e0ad807ccf7ae2687d9a9760a51b18bdb593c37e31a55175d2b19c13dc2df167"
+    },
+    {
+      "path": "STAGE43_QA_RESULTS.json",
+      "bytes": 5590,
+      "sha256": "1eda8a9befc339bc317b03db6dbdb1236bcda32e1fb7939da9cbd9068731f1f7"
+    },
+    {
+      "path": "STAGE43_QA_RESULTS_RECHECK.txt",
+      "bytes": 2814,
+      "sha256": "acb4b6181966655614db2bbd2fa6760a2df372c6373f7728a82db424f904dde5"
+    },
+    {
+      "path": "STAGE44_MASTER_REPORT_UZ.md",
+      "bytes": 6023,
+      "sha256": "1637017e0edae94d4e91ef0551b90839603a449a3fcedbf98db2d98ebedd9ec5"
+    },
+    {
+      "path": "STAGE44_QA_RESULTS.json",
+      "bytes": 5113,
+      "sha256": "ed7ad320c2c7e9f873a119c4403e2e630edb605689a05a076e96dda63de6766a"
+    },
+    {
+      "path": "STAGE44_QA_RESULTS_RECHECK.txt",
+      "bytes": 2860,
+      "sha256": "84e5877b7d58efa3552a9a32c3d1fbc3411e1065ea5a9ff5b5e8b0da59375940"
+    },
+    {
+      "path": "STAGE44_RELEASE_NOTES_UZ.md",
+      "bytes": 1426,
+      "sha256": "eb46110fd7638b1e252582aad8b717ea938fb957a2c411a2f83b523c2ff75efa"
+    },
+    {
+      "path": "STAGE44_SCORING_MODEL_UZ.md",
+      "bytes": 1655,
+      "sha256": "0cc0a13a26d68e07102128c2a9fc97948d3b13f16816806c1acbcc3f15266935"
+    },
+    {
+      "path": "STAGE45_HTTP_RESOURCE_SMOKE.json",
+      "bytes": 1123,
+      "sha256": "433bd517e6df29f8e58062b467dc7bf8775d2eb7e4304e8a262c69921d01bdea"
+    },
+    {
+      "path": "STAGE45_LAB_QUALITY_MODEL_UZ.md",
+      "bytes": 4111,
+      "sha256": "767c5d365dbccc44afd07f1a991b43ee4b779c59bbcc58c196ff5507a45626fa"
+    },
+    {
+      "path": "STAGE45_MASTER_REPORT_UZ.md",
+      "bytes": 5899,
+      "sha256": "b35cce151cd9a9a4d4b2d6587827d9d62608b21effd55e5d605b0d9e1dd9aa97"
+    },
+    {
+      "path": "STAGE45_QA_RESULTS.json",
+      "bytes": 5882,
+      "sha256": "ccbdf215ddaa6bd82860ee6a13bc34b7995fed15c2b7d3db035551f84524e078"
+    },
+    {
+      "path": "STAGE45_QA_RESULTS_RECHECK.txt",
+      "bytes": 3162,
+      "sha256": "f920fe70cf18d4357e8984768c50325b56f91bbcb0e6ade54515b2fa825e4368"
+    },
+    {
+      "path": "STAGE45_RELEASE_NOTES_UZ.md",
+      "bytes": 1516,
+      "sha256": "405ad0e3de4ec9618109a15dea861c327c7a4c25b9782c15f0490297935a8a76"
+    },
+    {
+      "path": "STAGE45_TEST_MATRIX_UZ.csv",
+      "bytes": 1520,
+      "sha256": "075869621f7ded92551c2bbbf3d9bf14c6a18708cad09f8fcbde80bcc90cb38d"
+    },
+    {
+      "path": "STAGE46_ADAPTIVE_DECISION_MODEL_UZ.md",
+      "bytes": 2137,
+      "sha256": "5a15619e89c6f836fb31143db6f0ae0996ce83b4a0b698412e2a9f91bdef1ba5"
+    },
+    {
+      "path": "STAGE46_ENGINE_TEST_RESULTS.json",
+      "bytes": 825,
+      "sha256": "023c1012ff77cc4e402f1f268f5a097e08567b6611f3de26a7eccbbc3c156fea"
+    },
+    {
+      "path": "STAGE46_HTTP_RESOURCE_SMOKE.json",
+      "bytes": 1550,
+      "sha256": "86c149f1fbc2233b8e8875de443e4e9871f302206dc1e8ffcb945ec085c16356"
+    },
+    {
+      "path": "STAGE46_MASTER_REPORT_UZ.md",
+      "bytes": 5304,
+      "sha256": "3f7e2e70d2cdfc773dd13661f833b6922ba8b02fddd981d03a13e29da9767948"
+    },
+    {
+      "path": "STAGE46_QA_RESULTS.json",
+      "bytes": 1987,
+      "sha256": "37e7f42851780b3e3e2d7f74d8abfc24f4858c6c196bdf54ad8ecbb38ff4facd"
+    },
+    {
+      "path": "STAGE46_RELEASE_NOTES_UZ.md",
+      "bytes": 2025,
+      "sha256": "3852192db5d0c01a59bbd700728b15a1238511eb3b82531fe881b3e30973dcef"
+    },
+    {
+      "path": "STAGE47_BASELINE_AUDIT_UZ.md",
+      "bytes": 1090,
+      "sha256": "63b4cf423325014ce58693e90d727dcf1445e8caef26a9f7aae591328d6e4fb9"
+    },
+    {
+      "path": "STAGE47_RESOURCE_INTEGRATION_SPEC_UZ.md",
+      "bytes": 6203,
+      "sha256": "312913f9936d1e8e1804511a675aa82c2dd791b1d34e4fc04f0e549688631367"
+    },
+    {
+      "path": "STAGE47_RESOURCE_MAPPING_TEMPLATE_UZ.csv",
+      "bytes": 102800,
+      "sha256": "bc305085356aba61e87190f3b29bca155370fad774ef3531e70317b369a9c3d1"
+    },
+    {
+      "path": "STAGE47_SOURCE_RIGHTS_REGISTER_UZ.md",
+      "bytes": 1823,
+      "sha256": "3329927475be0a361240327ededfcec1be8ee19792de0a2a658a2fd56ea16d58"
+    },
+    {
+      "path": "UPLOAD_GUIDE_UZ.txt",
+      "bytes": 1999,
+      "sha256": "48dd6dd4b9f7b88643ebab95427db96d03d8fe52b227ae91e886eb9bf32028d3"
+    },
+    {
+      "path": "VOCABULARY_POLICY_UZ.md",
+      "bytes": 1163,
+      "sha256": "ccb2cdb2e1b675c5fa0262bbbbd039cd2fbb01b8ed3de02fdb21109d0ff148c9"
+    },
+    {
+      "path": "app-icon-192.png",
+      "bytes": 42842,
+      "sha256": "054a8b0575876e103b6a6899fb5dcc64d5652689dde9d788a4b6ce6d87e1d2c4"
+    },
+    {
+      "path": "app-icon-512-maskable.png",
+      "bytes": 133936,
+      "sha256": "51bc33afb93282014db3270b7c2956800be18772d3fb8f86fb618e3933a634cb"
+    },
+    {
+      "path": "app-icon-512.png",
+      "bytes": 241933,
+      "sha256": "09e8389f4b690f678757c097934fb0d2a860db2de3e9bf93dc265f2b14ad2e23"
+    },
+    {
+      "path": "app-icon-96-maskable.png",
+      "bytes": 8104,
+      "sha256": "d785a10baf6713ec67181853c5269c55f104a9989683d8b3291c3b9fe5a809b4"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 38343,
+      "sha256": "c2f9be4ae5de5b76633dee234302f5cc816cb3e60c7241cfabfe91b69997f1c2"
+    },
+    {
+      "path": "assets/css/app.css",
+      "bytes": 94022,
+      "sha256": "78c495600c62c729379f045f9701f7dc1f963d091f272db6f59ab42d8ac4d801"
+    },
+    {
+      "path": "assets/js/app.js",
+      "bytes": 823502,
+      "sha256": "9ffa86b8f769cc9de44a76c6dff57363a06b01237468f661d4ab33ca5ca0e815"
+    },
+    {
+      "path": "assets/js/core/adaptive-engine.js",
+      "bytes": 16217,
+      "sha256": "cbf68d67dee96296a6e3fa051d913a0cdaf59e6228c42726a65d6ca85cee690a"
+    },
+    {
+      "path": "assets/js/core/boot-error.js",
+      "bytes": 1064,
+      "sha256": "de6e633b3636fe43b29345f42b0140d430536c34cbca12a89efcfad1f1b16f3f"
+    },
+    {
+      "path": "assets/js/core/data-loader.js",
+      "bytes": 1487,
+      "sha256": "dc0b0da3aea72f9f36597c2fc62f80747d1b4482e3eed526270b07f2ce9b15d7"
+    },
+    {
+      "path": "assets/js/core/lab-quality-engine.js",
+      "bytes": 10468,
+      "sha256": "64c446e99440f2534bb2521d50321c11d1b719b1924ccba8dafdb3445ffa99e7"
+    },
+    {
+      "path": "assets/js/core/scoring-engine.js",
+      "bytes": 8659,
+      "sha256": "bfa56efcee87e89425fb72aaaf1d4825e8407451afd25599204199de25db4736"
+    },
+    {
+      "path": "audio/.gitkeep",
+      "bytes": 42,
+      "sha256": "17c67382d623a3d074b1731a09f38afe6d979f3cd62aa4712c9f8a35db9a5090"
+    },
+    {
+      "path": "audio/listening-day-01.mp3",
+      "bytes": 725420,
+      "sha256": "b18bb3dabcbd2f330e998c22e74a67d939901115ef19862d3ea2997327f0844f"
+    },
+    {
+      "path": "audio/listening-day-02.mp3",
+      "bytes": 679820,
+      "sha256": "9dc179a6a5b13fa2af7272a4855e347b37434417ee9156886ec597e322756060"
+    },
+    {
+      "path": "audio/listening-day-03.mp3",
+      "bytes": 639020,
+      "sha256": "f293a96901bdaf85c57d183896086d853e2f254e22c73c7260933a4b398a565e"
+    },
+    {
+      "path": "audio/listening-day-04.mp3",
+      "bytes": 705068,
+      "sha256": "1dd3e0258003b7e5416c7470b2d783a8ddb71946a941720e198c69cdba6f9394"
+    },
+    {
+      "path": "audio/listening-day-05.mp3",
+      "bytes": 661772,
+      "sha256": "0986dcb67d33b82f168fe65914150284a143ef78fe386e43aa655d8b07f3aeb4"
+    },
+    {
+      "path": "audio/listening-day-06.mp3",
+      "bytes": 645932,
+      "sha256": "a719cb69df74af56690f229a4faff910c37dd76c3a012ecc1a725c9562348f04"
+    },
+    {
+      "path": "audio/listening-day-07.mp3",
+      "bytes": 726572,
+      "sha256": "f0500fc40ccca91f179e5ff9e75840789ee84374f6957b56c48496ba18042a8c"
+    },
+    {
+      "path": "audio/listening-day-08.mp3",
+      "bytes": 688460,
+      "sha256": "d81ebed2692d89675c7d5a3612c35eeb430b7537d779b2fba7c5eb0f7ece3df2"
+    },
+    {
+      "path": "audio/listening-day-09.mp3",
+      "bytes": 649100,
+      "sha256": "c8f424b89b516f91823371ef21ca7bd62c2708f19b79f9007564984c03a21e80"
+    },
+    {
+      "path": "audio/listening-day-10.mp3",
+      "bytes": 684908,
+      "sha256": "7ade11fde7e64334ecd01eca7602abd5452e0ffb1f704eb4727a097677576909"
+    },
+    {
+      "path": "audio/listening-day-11.mp3",
+      "bytes": 680204,
+      "sha256": "a6c0ef8972b6f5cb5e2243a49cdd404b28a997f5d4ce0532c9973be698590c72"
+    },
+    {
+      "path": "audio/listening-day-12.mp3",
+      "bytes": 672044,
+      "sha256": "4ab989f5ca6f97a68099540ace0964870538abf5590e10cd3cd3b2dca4627a9d"
+    },
+    {
+      "path": "audio/listening-day-13.mp3",
+      "bytes": 646700,
+      "sha256": "5f50cb6b8ce5d208ae31d7f94faf39aab0a354991de000bba0a6f2c35f495ba5"
+    },
+    {
+      "path": "audio/listening-day-14.mp3",
+      "bytes": 730508,
+      "sha256": "98d57c747f75da420060a9454d155451af28c971e72a4af8e73878f47d4a1595"
+    },
+    {
+      "path": "audio/listening-day-15.mp3",
+      "bytes": 719372,
+      "sha256": "4515cb14fd07cd45024746444fea6024be23e238869f52881579c964eb0a5f88"
+    },
+    {
+      "path": "audio/listening-day-16.mp3",
+      "bytes": 685772,
+      "sha256": "2004f4cc942f261798a77d11343c36e152dc46264e07ed71208caba573017ff6"
+    },
+    {
+      "path": "audio/listening-day-17.mp3",
+      "bytes": 660524,
+      "sha256": "f09b45487cdbee5ca99b2f919fcc30b21b3171ed2f379ba68edeff2eb2ab1389"
+    },
+    {
+      "path": "audio/listening-day-18.mp3",
+      "bytes": 663020,
+      "sha256": "6ad1e683c6233ba1cd0ce70e172f4bc9c0351e3e66f68fa2c1404f86dea8319e"
+    },
+    {
+      "path": "audio/listening-day-19.mp3",
+      "bytes": 687212,
+      "sha256": "0407bb2c929c47f8ee0c7498a2c00dcc2b46c81c31fd0ca959dfabdb12bfadd7"
+    },
+    {
+      "path": "audio/listening-day-20.mp3",
+      "bytes": 636236,
+      "sha256": "03b6dcd21f5235b2304969fa63b1028eb8943d46991ddbc5445e9b346a55d9b9"
+    },
+    {
+      "path": "audio/listening-day-21.mp3",
+      "bytes": 698060,
+      "sha256": "c1c7b05370aca88069740ccd4458cb24e33bcdb5cf0209845093dcbc4fe9cc80"
+    },
+    {
+      "path": "audio/listening-day-22.mp3",
+      "bytes": 719276,
+      "sha256": "1caa9376bf153f64c7d0bec58289da9427fd1d9fafe0415a7836cd9a11f7e81e"
+    },
+    {
+      "path": "audio/listening-day-23.mp3",
+      "bytes": 685388,
+      "sha256": "a15d3dd6f02c554315e43dd9f9e5459816d301cc0e3595b9afb059024edcec72"
+    },
+    {
+      "path": "audio/listening-day-24.mp3",
+      "bytes": 665804,
+      "sha256": "7f1560563a9a0fbd693d6b5665c6cd311ad846b4fffdf46d710432d155bae59e"
+    },
+    {
+      "path": "audio/listening-day-25.mp3",
+      "bytes": 722828,
+      "sha256": "e533c860125d5859c7d8f636d6e9aa063d2af0768994a87d52e4a2d4a2d3dbc7"
+    },
+    {
+      "path": "audio/listening-day-26.mp3",
+      "bytes": 682988,
+      "sha256": "8cd15e100ea972ff4b53e3917144c708c2301dcf4a2a96ef351929c746ac26df"
+    },
+    {
+      "path": "audio/listening-day-27.mp3",
+      "bytes": 640940,
+      "sha256": "1f9f2d6df434c9341e903769e34cfc792047a6c0c2d1016307d92ef91dcc59b8"
+    },
+    {
+      "path": "audio/listening-day-28.mp3",
+      "bytes": 697100,
+      "sha256": "7b2cab2f405d9b70a8acc17fadad1ff18fad10c373f1f3eddd6ed982c3fa3613"
+    },
+    {
+      "path": "audio/listening-day-29.mp3",
+      "bytes": 712460,
+      "sha256": "5e5e73970df7b5296ba00fb8022d010d315a0431c5f8562740a2098765b4278e"
+    },
+    {
+      "path": "audio/listening-day-30.mp3",
+      "bytes": 669836,
+      "sha256": "e73863cc63fc57a02a120541c921dd7fd177e010bba41c88503a01c6396cdaf9"
+    },
+    {
+      "path": "audio/listening-day-31.mp3",
+      "bytes": 679148,
+      "sha256": "a6cb0b456a5d5f9e9cd8625fe4ad7bd7038075a38c26e2722dc1ca18c748110e"
+    },
+    {
+      "path": "audio/listening-day-32.mp3",
+      "bytes": 688940,
+      "sha256": "2415fc2315a224d2cb7176660811eaa49fb40b259c6dfe24cd62b97685732c78"
+    },
+    {
+      "path": "audio/listening-day-33.mp3",
+      "bytes": 657068,
+      "sha256": "bdbca45e5ed646487821925c93ce935ee47835ea2846610d47ccd8726bb6d76a"
+    },
+    {
+      "path": "audio/listening-day-34.mp3",
+      "bytes": 663116,
+      "sha256": "2d951bfb9eb504f45025893595a376f02b48869314c1c805924c0fa4869acea0"
+    },
+    {
+      "path": "audio/listening-day-35.mp3",
+      "bytes": 703340,
+      "sha256": "5df038ad412f6b61b0b1694ebe8b3233f06129faedd2cda3380dd03b50761f10"
+    },
+    {
+      "path": "audio/listening-day-36.mp3",
+      "bytes": 707756,
+      "sha256": "bfab219744552a7d54fc7ce96633057a5a60a146034d2391d73c43c24b5c4598"
+    },
+    {
+      "path": "audio/listening-day-37.mp3",
+      "bytes": 702668,
+      "sha256": "8cc67f25716d3c77c4a09483abcc49a520eb0a5e49cb8d4a5d813f97ba35b841"
+    },
+    {
+      "path": "audio/listening-day-38.mp3",
+      "bytes": 675788,
+      "sha256": "c57fe0c6ce734a5f6953cf469d2c04ac77a9e4acfa7682f4d64147048504936e"
+    },
+    {
+      "path": "audio/listening-day-39.mp3",
+      "bytes": 672428,
+      "sha256": "e6b39e473a809a141dc3544468ebbcd827965bc8cec5f140476b0ebc91e19f7d"
+    },
+    {
+      "path": "audio/listening-day-40.mp3",
+      "bytes": 677420,
+      "sha256": "9cbcf4766fa78a743fb62404365a571ab8b75085b68b4190b88c3944d352ce3f"
+    },
+    {
+      "path": "audio/listening-day-41.mp3",
+      "bytes": 659180,
+      "sha256": "0998d4222c6308ad834e6ceea89809f186be55717a46d0a82140be97fa1cf356"
+    },
+    {
+      "path": "audio/listening-day-42.mp3",
+      "bytes": 717644,
+      "sha256": "a2d349357a395042ca0ec58eb1789cbd2b3c8c31da7be07f60e2a620c6a688bf"
+    },
+    {
+      "path": "audio/listening-day-43.mp3",
+      "bytes": 681932,
+      "sha256": "ca036c0bb1893566770b1a5e206508008ad9b0906e34d89c9cefd2f64b93fece"
+    },
+    {
+      "path": "audio/listening-day-44.mp3",
+      "bytes": 673292,
+      "sha256": "75928752936c8f0f3646f8874802db9c36d621271282ad09ef3b1fe6d4c4de81"
+    },
+    {
+      "path": "audio/listening-day-45.mp3",
+      "bytes": 657740,
+      "sha256": "1eb71fd5dfa7c1518c6318553911409542a6e03c7cff0e3bc666b599a5dfed35"
+    },
+    {
+      "path": "audio/listening-day-46.mp3",
+      "bytes": 700172,
+      "sha256": "355de8d99828a57f54d1dc333a2ad85737b1bde1fe3c78c7411ccef0c0695112"
+    },
+    {
+      "path": "audio/listening-day-47.mp3",
+      "bytes": 658124,
+      "sha256": "ae1ca1597488d7a63f3e38e5dce68762dfc73cde3aad8fec8976b22f215bd7f3"
+    },
+    {
+      "path": "audio/listening-day-48.mp3",
+      "bytes": 626732,
+      "sha256": "47a5d086adebc8c55652a6097c27da54085ad4ab14b8bbebdd91c7aab7147167"
+    },
+    {
+      "path": "audio/listening-day-49.mp3",
+      "bytes": 681644,
+      "sha256": "c32d1a064232b43e22529087222dff05ca1b49a1614d7f8275addd5bc44538f3"
+    },
+    {
+      "path": "audio/listening-day-50.mp3",
+      "bytes": 734636,
+      "sha256": "5cf1149b2f478a9aed50d6b97192d14b3e06f22bf219ab3a8dde729798be4340"
+    },
+    {
+      "path": "audio/listening-day-51.mp3",
+      "bytes": 687212,
+      "sha256": "d0bed81a17a6eff36035bd53fe15ae160a71c7938e053d72ad34de4f63e651b3"
+    },
+    {
+      "path": "audio/listening-day-52.mp3",
+      "bytes": 664844,
+      "sha256": "30e2bc969b926e1346b98a6bac51abcffeb8cdd523455153e77630e175de0ca4"
+    },
+    {
+      "path": "audio/listening-day-53.mp3",
+      "bytes": 715052,
+      "sha256": "603aecf09b3270e2a057325267934952804d9ecae13fed6c3002d456ba1ede24"
+    },
+    {
+      "path": "audio/listening-day-54.mp3",
+      "bytes": 660908,
+      "sha256": "607f4b96d3eec3b2d61bc1a3cf37b5038b17b24c7a37ede095fcd082ebd9dd29"
+    },
+    {
+      "path": "audio/listening-day-55.mp3",
+      "bytes": 672716,
+      "sha256": "02253e851c4a14f5682c432088f67f1e60afeab1675d113199af06c38c53590f"
+    },
+    {
+      "path": "audio/listening-day-56.mp3",
+      "bytes": 702380,
+      "sha256": "37ad64e188abdea63dd17b9541cf91760a3075104bf2c549b0413f092da204ea"
+    },
+    {
+      "path": "audio/listening-day-57.mp3",
+      "bytes": 719756,
+      "sha256": "2a0104e219c1f35db14a3daf2057e1194fb6e5b6f75e4f7ee99a7d7249eb7f68"
+    },
+    {
+      "path": "audio/listening-day-58.mp3",
+      "bytes": 681836,
+      "sha256": "2329659151955a29ee53c2803c0df18632d9995225b1ac788fc346d1b36c807d"
+    },
+    {
+      "path": "audio/listening-day-59.mp3",
+      "bytes": 695660,
+      "sha256": "92a96616d70c2633aea83cc85d1c3ea8f889d4b7857dc435d93b00d2299b7f19"
+    },
+    {
+      "path": "audio/listening-day-60.mp3",
+      "bytes": 702956,
+      "sha256": "8fa094ac1ab67b9001e81bda2ae25f8ebf887e9b9d23041e6c137a8469a4515e"
+    },
+    {
+      "path": "audio/listening-day-61.mp3",
+      "bytes": 682892,
+      "sha256": "738bc8ad140fe29608ad4c510d7ad2784b7ae81441cb508bc975a1d48be31a2b"
+    },
+    {
+      "path": "audio/listening-day-62.mp3",
+      "bytes": 686252,
+      "sha256": "4245f0a1dbc817e533f5dfbe6363b3a186b5be6a2b4b064aac906463bb5a0e0a"
+    },
+    {
+      "path": "audio/listening-day-63.mp3",
+      "bytes": 689900,
+      "sha256": "8ffa1a307a51dcc9f8c37f0e4d19aa1d173bd0f378880464520462a2e7ed1c8c"
+    },
+    {
+      "path": "audio/listening-day-64.mp3",
+      "bytes": 769100,
+      "sha256": "46c82e447ad65dcd41250e8be4a64cc5552d87a2c06851e9d5aa8c4cfd6ad182"
+    },
+    {
+      "path": "audio/listening-day-65.mp3",
+      "bytes": 690092,
+      "sha256": "0bdc70d72152feadb5959da4b984f9988b7915178b892e19225ef5c6ef268074"
+    },
+    {
+      "path": "audio/listening-day-66.mp3",
+      "bytes": 652748,
+      "sha256": "6d537308cf5316614a022d61541773524ae7091a9576d2fdbfabc2d0ca955c32"
+    },
+    {
+      "path": "audio/listening-day-67.mp3",
+      "bytes": 712940,
+      "sha256": "3fda9c0b74c14b99c199817d7b34edcf2ed95504116bba0176d3a4f974af760a"
+    },
+    {
+      "path": "audio/listening-day-68.mp3",
+      "bytes": 654092,
+      "sha256": "89c065a08046af93325c7bbad157554d4bd2257eaec54c91e04ce8ecb4f2edec"
+    },
+    {
+      "path": "audio/listening-day-69.mp3",
+      "bytes": 628076,
+      "sha256": "46669d74edba4d701fb8387201e35dd789360d385a3bec99a05088c6a96ab965"
+    },
+    {
+      "path": "audio/listening-day-70.mp3",
+      "bytes": 729548,
+      "sha256": "4c25ea0094458714c2b4f62e253121cc40c6c46fbcf3459d23277cae6033f606"
+    },
+    {
+      "path": "audio/listening-day-71.mp3",
+      "bytes": 718028,
+      "sha256": "88e5487d4a3f06d1917457be750d8035d93445543cca0ae73db76712d7172edf"
+    },
+    {
+      "path": "audio/listening-day-72.mp3",
+      "bytes": 664748,
+      "sha256": "45754ad2e1b8273921195a6fd397c818cf33063518c8ee7101e2f2d18900c424"
+    },
+    {
+      "path": "audio/listening-day-73.mp3",
+      "bytes": 667148,
+      "sha256": "13e0f552e73bdc73e8bb1601247d7fdb06bc8c1abdbeb5c83fe49048be7465d3"
+    },
+    {
+      "path": "audio/listening-day-74.mp3",
+      "bytes": 732044,
+      "sha256": "a5d801062f2a1b8d37dd1f0e074eafe764138e91677a3e771ffa41339bd8ea95"
+    },
+    {
+      "path": "audio/listening-day-75.mp3",
+      "bytes": 686348,
+      "sha256": "3c41c06ad6e399176d0d3d98be098df9a61821835a26b426b228ffb8c3a7b8ee"
+    },
+    {
+      "path": "audio/listening-day-76.mp3",
+      "bytes": 638732,
+      "sha256": "5cfe4bb6b09654d9e50ba26f68fccc3f2f863c1550e93e1599392d1ff2d1c657"
+    },
+    {
+      "path": "audio/listening-day-77.mp3",
+      "bytes": 718412,
+      "sha256": "423afb551f62f68ca430a84d92dee7ec4278223eb9e49ab854813f6423d9655a"
+    },
+    {
+      "path": "audio/listening-day-78.mp3",
+      "bytes": 710444,
+      "sha256": "aaf16e657fdf774fae1ff9886661b272b8f5eed7be50660a50091d878e461024"
+    },
+    {
+      "path": "audio/listening-day-79.mp3",
+      "bytes": 705164,
+      "sha256": "72c9abe7c8eabcd43721e1f55d2f6319435b0b7828788809597fbf0edeabe70a"
+    },
+    {
+      "path": "audio/listening-day-80.mp3",
+      "bytes": 668300,
+      "sha256": "849555bbb33103698c9ac8753238f5201e6622eeed54ce487d5c1324e7257a55"
+    },
+    {
+      "path": "audio/listening-day-81.mp3",
+      "bytes": 686444,
+      "sha256": "db883235fbb71b00b20cee1e121559797bc50aded9c1647f77ea6822b8988ae7"
+    },
+    {
+      "path": "audio/listening-day-82.mp3",
+      "bytes": 702956,
+      "sha256": "9289e8f630f1776c022a0aa88e24290c61a6b292ac0134273461b483e717c985"
+    },
+    {
+      "path": "audio/listening-day-83.mp3",
+      "bytes": 629420,
+      "sha256": "b2ef41750df0cc6551da21523af9da3fc327e50d60a02346452c97ce6e0306c0"
+    },
+    {
+      "path": "audio/listening-day-84.mp3",
+      "bytes": 711404,
+      "sha256": "e6efac4b4a929be60654377fef3bed7f833ad95dec49a8970f4feae3508301b9"
+    },
+    {
+      "path": "build_stage43.py",
+      "bytes": 9041,
+      "sha256": "bae248334ed6fbc59da1846b7f6976063af63ce54b9f65bd9dc3bc71f00afd48"
+    },
+    {
+      "path": "data/app-data.json",
+      "bytes": 15201479,
+      "sha256": "f798417b57883b2fb4c6a15038d833615d38f020763a01f2d96d1d1888ddafa6"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 15029,
+      "sha256": "2e3518456eb842a46ca94c6e0078e36587f0fb449a8291db19004578cdef656c"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 462,
+      "sha256": "73aa3b1c5eaf2eaf50596d5a266a6e329e614f0681ba35dcb4c9e7f2b549af7d"
+    },
+    {
+      "path": "finish_stage44.py",
+      "bytes": 10251,
+      "sha256": "7128d44721e4ee3000804ad9b6861ccdedba8db87d645a0a18d0b3501f1a581d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1891,
+      "sha256": "fdd8d14716e28683b82e75aceb02faa92b79894bc0e2ce3b44eda1cccf9b6a3d"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 2106,
+      "sha256": "79ed0ea188512431a4ca188dc42b1dd8088642b7c7b348913e4a5e705928635d"
+    },
+    {
+      "path": "patch_stage44.py",
+      "bytes": 23847,
+      "sha256": "200543747058aa9a6d1bbfd491cc693d4d8ddb70c00c755fa52ead4a1cf560e0"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3360,
+      "sha256": "51c9dfdd243782e153a3e45a7eb8ec97f7c8dd94eecd8031eb0b2ea8b693cc35"
+    },
+    {
+      "path": "tools/qa_stage41.py",
+      "bytes": 5812,
+      "sha256": "b0f888465620fa64fe139c7cb924a41202958aaac18f7c976ec848b5f43434e7"
+    },
+    {
+      "path": "tools/qa_stage42.py",
+      "bytes": 11448,
+      "sha256": "5ecc156305c88da1b3b3ad47eb39bd70f339ef54039064e9b41badcc4574e1f2"
+    },
+    {
+      "path": "tools/qa_stage43.py",
+      "bytes": 8447,
+      "sha256": "866849375d587ea008fb827c60ed92ab9276f81832ace56e2e3a7c492443bb7f"
+    },
+    {
+      "path": "tools/qa_stage44.py",
+      "bytes": 10390,
+      "sha256": "12239b47bf65b01c1b8f775f4f04f4de722d734f837ca0e11f0d1fcecf00a247"
+    },
+    {
+      "path": "tools/qa_stage45.py",
+      "bytes": 13197,
+      "sha256": "153f1e2f4928412ed880f1fd332bed2ce67f1562b8c9023d34ce9b9bc606130b"
+    },
+    {
+      "path": "tools/qa_stage46.mjs",
+      "bytes": 6161,
+      "sha256": "060e4cdfebc0f31a8ef15b09f0e5eabccff463e4f3348a4cb38aa189c5d86db6"
+    }
+  ]
+}

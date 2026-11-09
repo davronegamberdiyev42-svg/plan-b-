@@ -1,0 +1,47 @@
+STAGE 45 QA: 33/33 PASS
+PASS | Stage 45 pure quality engine exists and is imported
+PASS | All ten live P37 laboratories are represented in the quality engine
+PASS | Stage 45 runtime metadata is declared
+PASS | Stage 46 shell cache generation is advanced
+PASS | New lab engine is precached
+PASS | Stage 42 Listening audio cache key is preserved
+PASS | Stage 45 title is present
+PASS | Stage 45 UI styles exist
+PASS | Only answer-key checked labs can create objective records
+PASS | Open-ended labs are explicitly classified as process/self-review
+PASS | Mastery accuracy is sample-gated at three distinct objective prompts
+PASS | Old P37 /10 figures are disclosed as practice-completion index
+PASS | Old practice progress is preserved for continuity
+PASS | Writing / Speaking / Pronunciation / Paraphrase / Vocabulary / Fluency are not auto-scored for language accuracy
+PASS | Error-cause and repair-plan workflow is present
+PASS | Transfer challenge is optional and does not alter mandatory day requirements
+PASS | Reading transfer evidence is checked against fresh source text
+PASS | Listening transfer requires full audio completion
+PASS | All ten labs have a transfer task builder branch
+PASS | Adaptive focus uses answer-key evidence, not practice average
+PASS | Classic 100-mode archive remains preserved
+PASS | 84-day Academic plan remains intact | plan=84, core=84
+PASS | All four mandatory skill modules remain on all 84 days | 336/336
+PASS | 61-article supplemental library remains intact | 61
+PASS | Core day content has the required transfer sources | Reading, Listening, Writing Task 2 and Speaking Part 3 available
+PASS | JavaScript syntax: application runtime | node --check PASS
+PASS | JavaScript syntax: lab quality engine | node --check PASS
+PASS | JavaScript syntax: service worker | node --check PASS
+PASS | Executable Stage 45 quality / adaptive / transfer validation tests | Stage45 pure engine assertions PASS
+PASS | Stage 41 inherited regression suite | ing audio files | 84 MP3 files
+PASS | All audio files non-empty | 57,539,664 bytes total
+PASS | External application ES module syntax | node --check passed
+PASS | Service worker JavaScript syntax | node --check passed
+PASS | Browser speech-recognition adapter exists | Web Speech API path found
+PASS | Microphone recording is separate from ASR | MediaRecorder and SpeechRecognition are separate browser APIs
+PASS | Server-side transcription endpoint absent | No bundled STT backend/API call detected
+
+PASS | Stage 42 inherited regression suite | odule syntax | node --check passed
+PASS | Service worker JavaScript syntax | node --check passed
+PASS | Transcript helper unit tests | 8 pure helper assertions PASS
+PASS | Mocked recognition lifecycle (final commit, reconnect, stop, manual protection) | Recognition lifecycle simulation PASS
+
+LIMITATION: This script does not grant microphone permission and does not verify real device/browser speech recognition. Complete the Samsung A14 acceptance checklist in STAGE42_TRANSCRIPT_ACCEPTANCE_UZ.md.
+
+PASS | Stage 43 inherited regression suite | STAGE 43 QA: 39/39 PASS
+PASS | Stage 44 inherited regression suite | STAGE 44 QA: 30/30 PASS

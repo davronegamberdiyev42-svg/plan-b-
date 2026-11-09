@@ -1,0 +1,210 @@
+{
+  "stage": 43,
+  "release": "43.0.0 + Stage 44 scoring-regression",
+  "date": "2026-11-08",
+  "passed": 39,
+  "total": 39,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "HTML shell exists and is lightweight",
+      "passed": true,
+      "detail": "3,111 bytes"
+    },
+    {
+      "name": "HTML loads one external stylesheet",
+      "passed": true,
+      "detail": "external CSS reference found"
+    },
+    {
+      "name": "HTML loads app as an ES module",
+      "passed": true,
+      "detail": "module entry found"
+    },
+    {
+      "name": "Large JSON payload is no longer embedded in HTML",
+      "passed": true,
+      "detail": "no embedded appData script"
+    },
+    {
+      "name": "Application runtime is external",
+      "passed": true,
+      "detail": "892,473 bytes"
+    },
+    {
+      "name": "Stylesheet is external and complete",
+      "passed": true,
+      "detail": "94,022 bytes"
+    },
+    {
+      "name": "Core data loader module exists",
+      "passed": true,
+      "detail": "loader module found"
+    },
+    {
+      "name": "Boot error/retry module exists",
+      "passed": true,
+      "detail": "accessible failure UI found"
+    },
+    {
+      "name": "External content JSON parses",
+      "passed": true,
+      "detail": "15,408,165 bytes"
+    },
+    {
+      "name": "84-day curriculum preserved",
+      "passed": true,
+      "detail": "plan=84, content=84"
+    },
+    {
+      "name": "All four mandatory skills preserved every day",
+      "passed": true,
+      "detail": "336/336 modules"
+    },
+    {
+      "name": "Reading question bank preserved",
+      "passed": true,
+      "detail": "840 questions"
+    },
+    {
+      "name": "Listening question bank preserved",
+      "passed": true,
+      "detail": "420 questions"
+    },
+    {
+      "name": "Vocabulary index preserved",
+      "passed": true,
+      "detail": "19,000 records"
+    },
+    {
+      "name": "61-article library preserved",
+      "passed": true,
+      "detail": "61 articles"
+    },
+    {
+      "name": "864 sentence patterns preserved",
+      "passed": true,
+      "detail": "864 patterns"
+    },
+    {
+      "name": "Asset path resolves: ./assets/css/app.css",
+      "passed": true,
+      "detail": "exists"
+    },
+    {
+      "name": "Asset path resolves: ./assets/js/app.js",
+      "passed": true,
+      "detail": "exists"
+    },
+    {
+      "name": "Asset path resolves: ./assets/js/core/data-loader.js",
+      "passed": true,
+      "detail": "exists"
+    },
+    {
+      "name": "Asset path resolves: ./assets/js/core/boot-error.js",
+      "passed": true,
+      "detail": "exists"
+    },
+    {
+      "name": "Asset path resolves: ./data/app-data.json",
+      "passed": true,
+      "detail": "exists"
+    },
+    {
+      "name": "Data loader fetches content relative to deployment root",
+      "passed": true,
+      "detail": "works with GitHub Pages project subpath"
+    },
+    {
+      "name": "Data loader validates schema and 84-day curriculum",
+      "passed": true,
+      "detail": "shape and curriculum guards found"
+    },
+    {
+      "name": "Startup failure includes retry path",
+      "passed": true,
+      "detail": "retry control found"
+    },
+    {
+      "name": "Existing localStorage namespace unchanged",
+      "passed": true,
+      "detail": "legacy storage namespace preserved"
+    },
+    {
+      "name": "Existing IndexedDB audio database unchanged",
+      "passed": true,
+      "detail": "IELTSBoostMedia v1 preserved"
+    },
+    {
+      "name": "Stage 42 transcript module preserved in runtime",
+      "passed": true,
+      "detail": "transcript runtime retained"
+    },
+    {
+      "name": "Ten primary learning laboratories preserved",
+      "passed": true,
+      "detail": "laboratory registry found"
+    },
+    {
+      "name": "Service worker cache namespace advanced to Stage 47",
+      "passed": true,
+      "detail": "Stage 46 shell cache generation"
+    },
+    {
+      "name": "Previously cached Stage 42 audio cache retained",
+      "passed": true,
+      "detail": "offline listening cache continuity"
+    },
+    {
+      "name": "Service worker precaches all separated modules and data",
+      "passed": true,
+      "detail": "Stage 43–45 app resources in CORE"
+    },
+    {
+      "name": "Every precached Stage 45 asset exists",
+      "passed": true,
+      "detail": "all found"
+    },
+    {
+      "name": "JavaScript syntax: Application ES module",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: Data loader module",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: Boot error module",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: Scoring engine module",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: Service worker",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "84 listening audio files remain bundled",
+      "passed": true,
+      "detail": "84 MP3 files"
+    },
+    {
+      "name": "All listening audio files are non-empty",
+      "passed": true,
+      "detail": "all audio files exceed 10 KB"
+    }
+  ],
+  "not_covered": [
+    "Live Chromium end-to-end rendering was attempted but did not complete in the available runtime.",
+    "Real Samsung A14 browser/PWA/microphone acceptance remains a physical-device test.",
+    "Feature-level function extraction is intentionally deferred; Stage 42 runtime remains as a compatibility bundle in this safe first migration."
+  ]
+}

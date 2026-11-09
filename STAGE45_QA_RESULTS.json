@@ -1,0 +1,181 @@
+{
+  "stage": 45,
+  "release": "45.0.0",
+  "date": "2026-11-08",
+  "passed": 33,
+  "total": 33,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "Stage 45 pure quality engine exists and is imported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All ten live P37 laboratories are represented in the quality engine",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 45 runtime metadata is declared",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 47 shell cache generation is advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "New lab engine is precached",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 42 Listening audio cache key is preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 47 title is present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 45 UI styles exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Only answer-key checked labs can create objective records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Open-ended labs are explicitly classified as process/self-review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Mastery accuracy is sample-gated at three distinct objective prompts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Old P37 /10 figures are disclosed as practice-completion index",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Old practice progress is preserved for continuity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Writing / Speaking / Pronunciation / Paraphrase / Vocabulary / Fluency are not auto-scored for language accuracy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Error-cause and repair-plan workflow is present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Transfer challenge is optional and does not alter mandatory day requirements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Reading transfer evidence is checked against fresh source text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Listening transfer requires full audio completion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All ten labs have a transfer task builder branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Adaptive focus uses answer-key evidence, not practice average",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Classic 100-mode archive remains preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84-day Academic plan remains intact",
+      "passed": true,
+      "detail": "plan=84, core=84"
+    },
+    {
+      "name": "All four mandatory skill modules remain on all 84 days",
+      "passed": true,
+      "detail": "336/336"
+    },
+    {
+      "name": "61-article supplemental library remains intact",
+      "passed": true,
+      "detail": "61"
+    },
+    {
+      "name": "Core day content has the required transfer sources",
+      "passed": true,
+      "detail": "Reading, Listening, Writing Task 2 and Speaking Part 3 available"
+    },
+    {
+      "name": "JavaScript syntax: application runtime",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: lab quality engine",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "JavaScript syntax: service worker",
+      "passed": true,
+      "detail": "node --check PASS"
+    },
+    {
+      "name": "Executable Stage 45 quality / adaptive / transfer validation tests",
+      "passed": true,
+      "detail": "Stage45 pure engine assertions PASS"
+    },
+    {
+      "name": "Stage 41 inherited regression suite",
+      "passed": true,
+      "detail": "ing audio files | 84 MP3 files\nPASS | All audio files non-empty | 57,539,664 bytes total\nPASS | External application ES module syntax | node --check passed\nPASS | Service worker JavaScript syntax | node --check passed\nPASS | Browser speech-recognition adapter exists | Web Speech API path found\nPASS | Microphone recording is separate from ASR | MediaRecorder and SpeechRecognition are separate browser APIs\nPASS | Server-side transcription endpoint absent | No bundled STT backend/API call detected\n"
+    },
+    {
+      "name": "Stage 42 inherited regression suite",
+      "passed": true,
+      "detail": "odule syntax | node --check passed\nPASS | Service worker JavaScript syntax | node --check passed\nPASS | Transcript helper unit tests | 8 pure helper assertions PASS\nPASS | Mocked recognition lifecycle (final commit, reconnect, stop, manual protection) | Recognition lifecycle simulation PASS\n\nLIMITATION: This script does not grant microphone permission and does not verify real device/browser speech recognition. Complete the Samsung A14 acceptance checklist in STAGE42_TRANSCRIPT_ACCEPTANCE_UZ.md.\n"
+    },
+    {
+      "name": "Stage 43 inherited regression suite",
+      "passed": true,
+      "detail": "STAGE 43 QA: 39/39 PASS"
+    },
+    {
+      "name": "Stage 44 inherited regression suite",
+      "passed": true,
+      "detail": "STAGE 44 QA: 30/30 PASS"
+    }
+  ],
+  "limitations": [
+    "No external AI or human examiner is connected; open-response lab quality remains process/self-review evidence.",
+    "Writing, Speaking, Pronunciation, Paraphrase, Vocabulary and Fluency do not receive semantic or acoustic accuracy grades from word counts/checklists.",
+    "Audio transfer completion and live ASR still depend on browser/device support; physical Samsung A14 acceptance remains pending.",
+    "Static/Node QA does not replace full browser E2E or human content calibration."
+  ]
+}

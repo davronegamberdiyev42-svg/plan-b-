@@ -1,0 +1,18 @@
+{
+  "stage": "43",
+  "release": "43.0.0",
+  "date": "2026-11-08",
+  "architecture": "phase-1 safe extraction",
+  "document_shell": "index.html",
+  "styles": "assets/css/app.css",
+  "runtime": "assets/js/app.js (Stage 42 compatibility runtime, now loaded as an ES module)",
+  "core_modules": [
+    "assets/js/core/data-loader.js",
+    "assets/js/core/boot-error.js"
+  ],
+  "content_data": "data/app-data.json",
+  "offline": "Service Worker precaches shell, runtime modules, stylesheet and content JSON",
+  "storage_compatibility": "Existing localStorage namespace and IndexedDB audio keys are unchanged",
+  "curriculum": "84 days / 336 core skill sessions",
+  "limits": "Feature-level runtime decomposition remains a later safe migration; no unverified function-level extraction was attempted."
+}

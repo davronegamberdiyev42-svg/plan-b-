@@ -1,0 +1,20 @@
+feature,decision,priority,current_evidence,next_action
+84-day Academic curriculum,KEEP,P0,84 days in appData,Preserve and regression-test
+Reading daily lab,KEEP,P0,84 sessions and 840 questions,Validate keys evidence and transfer
+Listening daily lab,KEEP,P0,84 sessions 420 questions 84 MP3,Validate audio evidence and offline playback
+Writing Task 1 and Task 2,KEEP,P0,84-day daily content,Criterion feedback and revision quality audit
+Speaking Part 1 2 3,KEEP,P0,Separate transcript fields and speaking tasks,Stage 42 transcript recovery
+10 primary laboratories,KEEP,P0,10 unique P37_MODULES IDs,Run functional regression on every round
+Classic 100 PowerLab modes,ARCHIVE / OPTIONAL,P2,Stage 40 feature document,Do not show as primary navigation; remove only duplicates after usage audit
+61-article library,KEEP AS EXTRA,P1,61 articles in library.articles,Check source rights before public redistribution
+864 sentence patterns,KEEP AS REFERENCE,P1,864 pattern records,Search quality and example validity audit
+12 reading source packs,KEEP,P1,12 packs in appData,Verify freshness and citations
+19k vocabulary index,KEEP WITH HONEST COVERAGE,P1,19,000 searchable; 677 complete offline,Improve selected core set before bulk expansion
+XP and achievement layer,SIMPLIFY,P2,XP and 5 achievements described in Stage 39,Keep optional and prevent XP from masking skill quality
+Duplicate dashboards and reports,MERGE,P2,Multiple overlapping report/score layers in app code,Unify only after data mapping
+Browser SpeechRecognition,REPAIR,P0,Optional Web Speech API,Stage 42 add diagnostics and resilient state handling
+Audio recorder,KEEP AND CONNECT,P0,MediaRecorder plus IndexedDB,Stage 42 distinguish recording from transcription and test restore
+Rule-based transcript heuristic,KEEP AS SUPPORT,P1,Word/sentence/filler/lexical signals,Do not claim examiner grade; improve evidence notes
+Actual AI feedback,ADD THROUGH SECURE BACKEND,P0 (when configured),No server AI/STT endpoint in ZIP,Use server-side secrets; never ship API keys in static JS
+Progress backup and restore,STRENGTHEN,P0,Local state and partial backup paths,Add round-trip migration tests including audio metadata
+PWA offline audio,STRENGTHEN,P1,Service Worker audio cache,Test each audio file and storage limits on Android

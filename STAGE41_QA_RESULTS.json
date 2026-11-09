@@ -1,0 +1,114 @@
+{
+  "stage": 41,
+  "release": "41.0.0-audit-baseline",
+  "passed": 21,
+  "total": 21,
+  "checks": [
+    {
+      "name": "Main HTML shell exists and references extracted modules",
+      "passed": true,
+      "detail": "3,111 bytes"
+    },
+    {
+      "name": "External app-data JSON parses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84-day curriculum",
+      "passed": true,
+      "detail": "84 days"
+    },
+    {
+      "name": "All four skills present on every day",
+      "passed": true,
+      "detail": "336/336 skill modules present"
+    },
+    {
+      "name": "Academic plan",
+      "passed": true,
+      "detail": "IELTS Academic (learner-confirmed; this build targets IELTS Academic only)."
+    },
+    {
+      "name": "No mandatory daily minute quota in curriculum notes",
+      "passed": true,
+      "detail": "plan notes inspected"
+    },
+    {
+      "name": "Reading question bank count",
+      "passed": true,
+      "detail": "840 questions"
+    },
+    {
+      "name": "Listening question bank count",
+      "passed": true,
+      "detail": "420 questions"
+    },
+    {
+      "name": "Searchable vocabulary index count",
+      "passed": true,
+      "detail": "19,000 entries"
+    },
+    {
+      "name": "Complete offline bilingual entries measured from fields",
+      "passed": true,
+      "detail": "677 complete entries"
+    },
+    {
+      "name": "Article library count",
+      "passed": true,
+      "detail": "61 articles"
+    },
+    {
+      "name": "Sentence pattern count",
+      "passed": true,
+      "detail": "864 patterns"
+    },
+    {
+      "name": "Reading source pack count",
+      "passed": true,
+      "detail": "12 packs"
+    },
+    {
+      "name": "Ten primary Stage 40 laboratories",
+      "passed": true,
+      "detail": "reading, listening, writing, speaking, collocations, pronunciation, paraphrase, grammar, vocabulary, fluency"
+    },
+    {
+      "name": "84 bundled listening audio files",
+      "passed": true,
+      "detail": "84 MP3 files"
+    },
+    {
+      "name": "All audio files non-empty",
+      "passed": true,
+      "detail": "57,539,664 bytes total"
+    },
+    {
+      "name": "External application ES module syntax",
+      "passed": true,
+      "detail": "node --check passed"
+    },
+    {
+      "name": "Service worker JavaScript syntax",
+      "passed": true,
+      "detail": "node --check passed"
+    },
+    {
+      "name": "Browser speech-recognition adapter exists",
+      "passed": true,
+      "detail": "Web Speech API path found"
+    },
+    {
+      "name": "Microphone recording is separate from ASR",
+      "passed": true,
+      "detail": "MediaRecorder and SpeechRecognition are separate browser APIs"
+    },
+    {
+      "name": "Server-side transcription endpoint absent",
+      "passed": true,
+      "detail": "No bundled STT backend/API call detected"
+    }
+  ],
+  "main_html_sha256": "d93598d22d21820dd7489bb3ebbd88a812b40c88fbd2b5108b3feb8c2bd35314"
+}

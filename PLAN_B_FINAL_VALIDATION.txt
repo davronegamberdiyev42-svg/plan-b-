@@ -1,0 +1,26 @@
+IELTS BOOST — PLAN-B FINAL PACKAGE VALIDATION
+
+Target repository: plan-b-
+GitHub Pages project URL: https://davronegamberdiyev42-svg.github.io/plan-b-/
+
+Verified locally:
+- Original ZIP integrity: PASS.
+- Manifest id/scope/start_url: project-relative.
+- HTML resource links: 13/13 exist.
+- CSS files inspected: 5; local url() references all exist.
+- JavaScript relative imports: all exist.
+- Service Worker CORE resources: 23/23 exist.
+- Manifest icon files: 4/4 exist.
+- JavaScript parse checks: 12/12 PASS.
+- Stage 50 engine suite: 36/36 PASS.
+- Listening audio: 84/84 SHA-256 hashes match the uploaded source ZIP.
+- Main curriculum payload `data/app-data.json`: byte-identical to source.
+- Both checksum manifests: regenerated and verified against every included file.
+- ZIP archive integrity: PASS.
+
+Not claimed as tested:
+- Actual GitHub Pages deployment / live HTTP responses.
+- Samsung Galaxy A14 real-browser and installation acceptance.
+- Physical microphone, speech recognition and installed-PWA behavior.
+
+Deployment reminder: extract the ZIP and upload its contents into the repository root. Do not upload the ZIP as one file or put everything inside an extra nested folder.

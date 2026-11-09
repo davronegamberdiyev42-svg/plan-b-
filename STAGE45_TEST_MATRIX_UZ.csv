@@ -1,0 +1,11 @@
+Laboratory,Transfer sample,Required validation,Accuracy claim,Known limit
+Reading,Next-day passage and question,Answer key + exact source quote + reasoning,Objective answer accuracy,Quote match is not full semantic reasoning
+Listening,Next-day audio and question,Full playback + answer key + exact script phrase,Objective answer accuracy,Audio is original synthetic practice not official IELTS
+Writing,Next-day Academic Task 2 prompt,35+ word thesis/plan + prompt coverage,Process/self-review only,No automatic essay grading
+Speaking,Next-day Part 3 prompt,35+ word response + reflection,Process/self-review only,Transcript length is not spoken fluency
+Collocations,New collocation MCQ,Answer key + 10+ word contextual sentence,Objective for selected phrase only,Free sentence naturalness not auto-certified
+Pronunciation,New word/IPA target,3+ self-checks + timestamped observation,Process/self-review only,No acoustic phoneme scoring
+Paraphrase,New passage sentence,15+ word rewrite + meaning/scope/certainty checks,Process/self-review only,Checkboxes do not prove semantic equivalence
+Grammar,New grammar MCQ,Answer key + rule + 8+ word transfer sentence,Objective for selected rule item only,Does not certify general grammar skill
+Vocabulary,Next-day complete-gloss word,5+ word recall + new contextual use,Process/self-review only,Token overlap is not used as exact sense validation
+Fluency,New Part 3 prompt,Claim + reason + example + qualification,Process/self-review only,Written structure is not spoken fluency

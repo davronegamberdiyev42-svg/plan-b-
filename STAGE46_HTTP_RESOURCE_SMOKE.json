@@ -1,0 +1,67 @@
+{
+  "passed": 10,
+  "total": 10,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "content_length": "1891",
+      "content_type": "text/html"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "content_length": "1891",
+      "content_type": "text/html"
+    },
+    {
+      "path": "assets/css/app.css",
+      "status": 200,
+      "content_length": "94022",
+      "content_type": "text/css"
+    },
+    {
+      "path": "assets/js/app.js",
+      "status": 200,
+      "content_length": "823502",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "assets/js/core/adaptive-engine.js",
+      "status": 200,
+      "content_length": "16217",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "data/app-data.json",
+      "status": 200,
+      "content_length": "15201479",
+      "content_type": "application/json"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "status": 200,
+      "content_length": "2106",
+      "content_type": "application/manifest+json"
+    },
+    {
+      "path": "sw.js",
+      "status": 200,
+      "content_length": "3360",
+      "content_type": "text/javascript"
+    },
+    {
+      "path": "audio/listening-day-01.mp3",
+      "status": 200,
+      "content_length": "725420",
+      "content_type": "audio/mpeg"
+    },
+    {
+      "path": "audio/listening-day-84.mp3",
+      "status": 200,
+      "content_length": "711404",
+      "content_type": "audio/mpeg"
+    }
+  ],
+  "note": "Local Python HTTP server static-resource smoke test only; not browser UI E2E."
+}

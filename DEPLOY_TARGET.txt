@@ -1,0 +1,8 @@
+GitHub repository: plan-b-
+GitHub Pages URL: https://davronegamberdiyev42-svg.github.io/plan-b-/
+GitHub owner: davronegamberdiyev42-svg
+Deployment mode: GitHub Pages Project site.
+Publish the extracted archive contents directly in the main branch root.
+Do not upload the ZIP as a single file and do not put its contents inside an extra wrapper folder.
+index.html, assets/, data/, audio/, tools/, sw.js, manifest.webmanifest and app icons must be at repository root.
+Open the HTTPS GitHub Pages URL; do not launch index.html using file://.

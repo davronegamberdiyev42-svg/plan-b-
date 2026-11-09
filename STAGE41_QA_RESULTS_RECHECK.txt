@@ -1,0 +1,22 @@
+STAGE 41 STATIC QA: 21/21 PASS
+PASS | Main HTML shell exists and references extracted modules | 1,891 bytes
+PASS | External app-data JSON parses
+PASS | 84-day curriculum | 84 days
+PASS | All four skills present on every day | 336/336 skill modules present
+PASS | Academic plan | IELTS Academic (learner-confirmed; this build targets IELTS Academic only).
+PASS | No mandatory daily minute quota in curriculum notes | plan notes inspected
+PASS | Reading question bank count | 840 questions
+PASS | Listening question bank count | 420 questions
+PASS | Searchable vocabulary index count | 19,000 entries
+PASS | Complete offline bilingual entries measured from fields | 677 complete entries
+PASS | Article library count | 61 articles
+PASS | Sentence pattern count | 864 patterns
+PASS | Reading source pack count | 12 packs
+PASS | Ten primary Stage 40 laboratories | reading, listening, writing, speaking, collocations, pronunciation, paraphrase, grammar, vocabulary, fluency
+PASS | 84 bundled listening audio files | 84 MP3 files
+PASS | All audio files non-empty | 57,539,664 bytes total
+PASS | External application ES module syntax | node --check passed
+PASS | Service worker JavaScript syntax | node --check passed
+PASS | Browser speech-recognition adapter exists | Web Speech API path found
+PASS | Microphone recording is separate from ASR | MediaRecorder and SpeechRecognition are separate browser APIs
+PASS | Server-side transcription endpoint absent | No bundled STT backend/API call detected

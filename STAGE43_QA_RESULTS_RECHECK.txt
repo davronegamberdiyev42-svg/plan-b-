@@ -1,0 +1,41 @@
+STAGE 43 QA: 39/39 PASS
+PASS | HTML shell exists and is lightweight | 1,891 bytes
+PASS | HTML loads one external stylesheet | external CSS reference found
+PASS | HTML loads app as an ES module | module entry found
+PASS | Large JSON payload is no longer embedded in HTML | no embedded appData script
+PASS | Application runtime is external | 823,502 bytes
+PASS | Stylesheet is external and complete | 94,022 bytes
+PASS | Core data loader module exists | loader module found
+PASS | Boot error/retry module exists | accessible failure UI found
+PASS | External content JSON parses | 15,201,479 bytes
+PASS | 84-day curriculum preserved | plan=84, content=84
+PASS | All four mandatory skills preserved every day | 336/336 modules
+PASS | Reading question bank preserved | 840 questions
+PASS | Listening question bank preserved | 420 questions
+PASS | Vocabulary index preserved | 19,000 records
+PASS | 61-article library preserved | 61 articles
+PASS | 864 sentence patterns preserved | 864 patterns
+PASS | Asset path resolves: ./assets/css/app.css | exists
+PASS | Asset path resolves: ./assets/js/app.js | exists
+PASS | Asset path resolves: ./assets/js/core/data-loader.js | exists
+PASS | Asset path resolves: ./assets/js/core/boot-error.js | exists
+PASS | Asset path resolves: ./data/app-data.json | exists
+PASS | Data loader fetches content relative to deployment root | works with GitHub Pages project subpath
+PASS | Data loader validates schema and 84-day curriculum | shape and curriculum guards found
+PASS | Startup failure includes retry path | retry control found
+PASS | Existing localStorage namespace unchanged | legacy storage namespace preserved
+PASS | Existing IndexedDB audio database unchanged | IELTSBoostMedia v1 preserved
+PASS | Stage 42 transcript module preserved in runtime | transcript runtime retained
+PASS | Ten primary learning laboratories preserved | laboratory registry found
+PASS | Service worker cache namespace advanced to Stage 46 | Stage 46 shell cache generation
+PASS | Previously cached Stage 42 audio cache retained | offline listening cache continuity
+PASS | Service worker precaches all separated modules and data | Stage 43–45 app resources in CORE
+PASS | Every precached Stage 45 asset exists | all found
+PASS | JavaScript syntax: Application ES module | node --check PASS
+PASS | JavaScript syntax: Data loader module | node --check PASS
+PASS | JavaScript syntax: Boot error module | node --check PASS
+PASS | JavaScript syntax: Scoring engine module | node --check PASS
+PASS | JavaScript syntax: Service worker | node --check PASS
+PASS | 84 listening audio files remain bundled | 84 MP3 files
+PASS | All listening audio files are non-empty | all audio files exceed 10 KB
+LIMITATIONS: static/structural QA does not replace physical-device acceptance or full browser E2E validation.
