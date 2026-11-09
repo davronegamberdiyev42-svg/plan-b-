@@ -1,0 +1,16 @@
+IELTS BOOST — PLAN-B FINAL ZIP
+
+Repository: plan-b-
+GitHub owner: davronegamberdiyev42-svg
+GitHub Pages URL: https://davronegamberdiyev42-svg.github.io/plan-b-/
+Branch: main
+Publish source: /(root)
+
+1. ZIP’ni Extract qil.
+2. ZIP faylining o‘zini emas, ichidagi barcha fayl va papkalarni repository root’iga joyla.
+3. Root’da index.html, assets/, data/, audio/, tools/, sw.js, manifest.webmanifest va iconlar bo‘lishi kerak.
+4. GitHub → Settings → Pages → Deploy from a branch → main → /(root) → Save.
+5. HTTPS manzilni och: https://davronegamberdiyev42-svg.github.io/plan-b-/
+6. Birinchi yuklanish internet bilan amalga oshsin; keyin Chrome menyusidan Install app / Add to Home screen qil.
+
+Eslatma: JSON progress backup Speaking Studio audio yozuvlarini o‘z ichiga olmaydi; kerakli yozuvlarni alohida eksport qil. SpeechRecognition browser/device/internetga bog‘liq, manual transcript fallback mavjud. Real GitHub Pages va Samsung A14 sinovi alohida bajarilishi kerak.

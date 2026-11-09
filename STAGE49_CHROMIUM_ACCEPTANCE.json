@@ -1,0 +1,19 @@
+{
+  "stage": 49,
+  "status": "BLOCKED_BY_ENVIRONMENT",
+  "passed": 0,
+  "total": 1,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Browser acceptance flow",
+      "passed": null,
+      "detail": "Blocked by execution environment before page navigation; no browser assertions were run."
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "environment": "Chromium via Playwright; localhost HTTP; service workers blocked in test context",
+  "note": "BLOCKED means the browser was prevented from opening localhost before app navigation. It is not a product PASS or FAIL."
+}

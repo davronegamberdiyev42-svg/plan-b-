@@ -1,0 +1,59 @@
+STAGE 48 QA: 58/58 PASS
+PASS | 19,000 indexed word/phrase records
+PASS | All word record IDs are unique
+PASS | All normalised headwords are unique
+PASS | 84 daily vocabulary packs exist
+PASS | Every daily pack contains exactly 8 items
+PASS | 84-day core has 672 distinct items
+PASS | All 672 daily-core items have complete bilingual gloss + example + POS
+PASS | All 672 daily-core items have US and UK IPA fields
+PASS | Total complete offline bilingual glossary coverage is 677
+PASS | 4,000 pronunciation-only entries are explicitly classified
+PASS | No pronunciation-only entry is misreported as full gloss
+PASS | 15,678 US IPA fields are present
+PASS | 11,678 UK IPA fields are present
+PASS | 11,678 records have both IPA fields
+PASS | 4,541 part-of-speech fields are present
+PASS | 15,000 CEFR labels are estimates and 4,000 are not assessed
+PASS | Missing-field count is openly measurable
+PASS | The daily-core discrepancy IPA has its Cambridge source recorded
+PASS | Vocabulary audit metadata matches actual bundled coverage
+PASS | 61-article supplementary library remains intact
+PASS | 864 sentence patterns remain intact
+PASS | Stage 48 title and CSS are wired
+PASS | Vocabulary pure engine is imported
+PASS | Stage 48 search cache is constructed once
+PASS | Search merges legacy Stage 36, Stage 37 and current cache
+PASS | Search persists query and resets pagination
+PASS | Daily pack maps IDs through stable Map rather than repeated linear scan
+PASS | Transfer uses exact lexical token/phrase matching, not substring
+PASS | Daily vocabulary completion requires ≥6/8 recall + 2 target terms + 12 words
+PASS | Changing answers or transfer text invalidates stale completion result
+PASS | Review scheduler is SM-2-inspired and retains bounded history
+PASS | Again returns the word to same-day review
+PASS | SRS ratings require the meaning to be revealed first
+PASS | Online cache drafts are blocked from SRS until user-verified
+PASS | SRS uses local calendar date keys
+PASS | Legacy Stage 37 SRS entries and favourites are surfaced and safely migrated
+PASS | CEFR estimates and IPA field provenance are clearly qualified
+PASS | Stage 48 vocabulary coverage panel discloses real counts
+PASS | Stage 48 CSS contains mobile responsive styles
+PASS | Service worker cache version advanced and Stage 48 assets precached
+PASS | Stage 42 offline audio cache continuity is preserved
+PASS | All 84 listening MP3 files remain present
+PASS | 4-skill 84-day programme and Stage 47 resource map are intact
+PASS | JavaScript syntax: assets/js/app.js | PASS
+PASS | JavaScript syntax: assets/js/core/vocabulary-engine.js | PASS
+PASS | JavaScript syntax: assets/js/core/task1-intelligence.js | PASS
+PASS | JavaScript syntax: assets/js/core/adaptive-engine.js | PASS
+PASS | JavaScript syntax: sw.js | PASS
+PASS | Vocabulary engine unit suite
+PASS | Inherited regression: Stage 41 | QA: 21/21 PASS
+PASS | Inherited regression: Stage 42 | QA: 23/23 PASS
+PASS | Inherited regression: Stage 43 | QA: 39/39 PASS
+PASS | Inherited regression: Stage 44 | QA: 30/30 PASS
+PASS | Inherited regression: Stage 45 | QA: 33/33 PASS
+PASS | Inherited regression: Stage 46 | PASS
+PASS | Inherited regression: Stage 47 Task 1 | PASS
+PASS | Inherited regression: Stage 47 integration | QA: 40/40 PASS
+PASS | HTTP smoke: all 11 app/data/audio resources return 200 | /=200; /index.html=200; /assets/css/stage47.css=200; /assets/css/stage48.css=200; /assets/js/app.js=200; /assets/js/core/vocabulary-engine.js=200; /assets/js/core/task1-intelligence.js=200; /data/app-data.json=200; /sw.js=200; /audio/listening-day-01.mp3=200; /audio/listening-day-84.mp3=200

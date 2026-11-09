@@ -1,0 +1,44 @@
+{
+  "project": "IELTS Boost",
+  "release": "49.0.0",
+  "stage": 49,
+  "build_date": "2026-11-08",
+  "file_count_excluding_manifest": 215,
+  "audio_count": 84,
+  "core_curriculum_days": 84,
+  "mandatory_skill_sessions": 336,
+  "task1_original_visuals": 84,
+  "main_features": [
+    "responsive mobile UI",
+    "keyboard accessibility",
+    "relative PWA paths",
+    "CSP",
+    "offline status",
+    "SHA-256 backup envelope",
+    "backup validation and state migration",
+    "storage/device diagnostics",
+    "performance diagnostics"
+  ],
+  "qa": {
+    "stage49": "76/76 PASS",
+    "backup_engine": "10/10 PASS",
+    "stage41": "21/21 PASS",
+    "stage42": "23/23 PASS",
+    "stage43": "39/39 PASS",
+    "stage44": "30/30 PASS",
+    "stage45": "33/33 PASS",
+    "stage46": "47/47 PASS",
+    "stage47_task1": "19/19 PASS",
+    "stage47_integration": "40/40 PASS",
+    "http_smoke": "13/13 HTTP 200",
+    "chromium": "BLOCKED_BY_ENVIRONMENT",
+    "physical_android": "PENDING"
+  },
+  "known_boundaries": [
+    "JSON backup excludes IndexedDB audio blobs",
+    "No cloud sync or app-side at-rest encryption",
+    "Persistent storage grant is browser-controlled",
+    "Full Chromium E2E blocked by ERR_BLOCKED_BY_ADMINISTRATOR",
+    "Samsung A14 physical acceptance remains pending"
+  ]
+}

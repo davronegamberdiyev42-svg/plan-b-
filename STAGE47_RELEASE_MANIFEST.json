@@ -1,0 +1,84 @@
+{
+  "project": "IELTS Boost",
+  "stage": 47,
+  "release": "47.0.0",
+  "date": "2026-11-08",
+  "purpose": "IELTS Academic 84-day resource integration and Task 1 visual intelligence",
+  "content": {
+    "days": 84,
+    "mandatory_skills": [
+      "reading",
+      "listening",
+      "writing",
+      "speaking"
+    ],
+    "in_app_skill_resource_slots": 336,
+    "task1_original_fictional_visuals": 84,
+    "task1_visual_types": {
+      "line_graph": 14,
+      "bar_chart": 14,
+      "pie_chart": 14,
+      "table": 14,
+      "process": 14,
+      "map": 14
+    },
+    "task2_prompts": 84,
+    "listening_mp3": 84,
+    "listening_scripts": 84,
+    "listening_questions": 420,
+    "supplementary_articles": 61,
+    "daily_listening_companion_slots": 84,
+    "unique_daily_listening_items": 28,
+    "curated_catalog_items": 36,
+    "jre": "optional preview-only; not compulsory"
+  },
+  "qa": {
+    "stage47": {
+      "passed": 40,
+      "total": 40
+    },
+    "task1_logic": {
+      "passed": 19,
+      "total": 19
+    },
+    "regression": {
+      "41": {
+        "passed": 21,
+        "total": 21
+      },
+      "42": {
+        "passed": 23,
+        "total": 23
+      },
+      "43": {
+        "passed": 39,
+        "total": 39
+      },
+      "44": {
+        "passed": 30,
+        "total": 30
+      },
+      "45": {
+        "passed": 33,
+        "total": 33
+      },
+      "46": {
+        "passed": 47,
+        "total": 47
+      },
+      "42_device_acceptance": "PENDING",
+      "chromium_e2e": "NOT_COMPLETED"
+    },
+    "http_smoke": {
+      "passed": 9,
+      "total": 9
+    }
+  },
+  "known_limitations": [
+    "Full Chromium browser E2E not completed",
+    "Samsung A14 physical device acceptance pending",
+    "External provider playback/captions can change",
+    "Task 1 structural/data checker is not semantic essay marking"
+  ],
+  "deployment": "GitHub repository: plan-b-\nGitHub Pages URL: https://davronegamberdiyev42-svg.github.io/plan-b-/\nThis name is all lowercase; the final hyphen after 8 is intentional."
+}

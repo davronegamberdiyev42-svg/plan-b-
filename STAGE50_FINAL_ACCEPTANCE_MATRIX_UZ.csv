@@ -1,0 +1,23 @@
+Area,Acceptance criterion,Status,Evidence / next action
+Curriculum,84 days and 336 mandatory sessions, PASS,STAGE50_QA_RESULTS.json
+Reading,840 questions and answer evidence, PASS,STAGE50_QA_RESULTS.json
+Listening,420 questions and 84 MP3 validated, PASS,ffprobe 84/84 and QA
+Writing Task 1,84 original visual datasets across six types, PASS,STAGE47_TASK1_84_VISUAL_AUDIT_UZ.csv
+Writing Task 2,84 prompts preserved, PASS,STAGE50_QA_RESULTS.json
+Speaking,252 Part 1 84 Part 2 252 Part 3 prompts, PASS,STAGE50_QA_RESULTS.json
+Laboratories,10 primary labs and evidence/transfer gates, PASS,Stage45 regression
+Scoring,Internal 1-10 provenance and criteria model, PASS,Stage44 regression
+Adaptive,Confidence/evidence thresholds and no time cap, PASS,Stage46 regression
+Vocabulary,19K search index and 672 daily complete glossary, PASS,Stage48 regression
+Resources,84 day listening assignments and rights policy, PASS,Stage47 regression
+Backup,Checksum shape validation safety snapshot and merge, PASS,Stage49 backup 10/10
+PWA,Relative scope validator and shell cache, PASS,Stage50 QA 59/59
+HTTP assets,21 local routes return HTTP 200, PASS,STAGE50_QA_RESULTS.json
+Audio,84 MP3 stream/container checks, PASS,ffprobe 84/84
+Chromium E2E,Real browser render and UI flow, BLOCKED,ERR_BLOCKED_BY_ADMINISTRATOR before navigation; repeat on deployed HTTPS
+Samsung A14,Physical PWA/audio/transcript/restore acceptance, PENDING,Complete STAGE50_MOBILE_ACCEPTANCE_UZ.md
+Lighthouse,Performance and accessibility metrics, NOT RUN,Run against deployed HTTPS and real target device
+AI backend,Generative AI writing/speaking assessment, NOT CONNECTED,Current adaptive engine is local/deterministic
+Server STT,Server-side speech transcription, NOT CONNECTED,Web Speech API/manual fallback only
+Cloud sync,Multi-device server synchronization, NOT INCLUDED,Local-first storage
+At-rest encryption,App-managed storage encryption, NOT INCLUDED,Protect Android device/profile and backups

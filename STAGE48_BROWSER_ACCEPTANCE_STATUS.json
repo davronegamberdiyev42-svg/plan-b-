@@ -1,0 +1,14 @@
+{
+  "stage": 48,
+  "status": "BLOCKED_BY_ENVIRONMENT",
+  "attempted": true,
+  "browser": "Chromium 144 via Playwright",
+  "navigation": "http://127.0.0.1:<ephemeral-port>/",
+  "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+  "interpretation": "The execution environment blocked local browser navigation. This is not a product PASS or a confirmed product failure; interactive browser acceptance remains unverified.",
+  "required_follow_up": [
+    "Run tools/browser_acceptance_stage48.py in an environment that permits localhost browser navigation.",
+    "Test Stage 48 Vocabulary dashboard, daily pack, 19k search, SRS reveal gate and 390px mobile layout.",
+    "Perform Samsung A14 Chrome/Samsung Internet acceptance for install, offline, storage and audio."
+  ]
+}

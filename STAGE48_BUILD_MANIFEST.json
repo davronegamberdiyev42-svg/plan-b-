@@ -1,0 +1,94 @@
+{
+  "product": "IELTS Boost",
+  "stage": 48,
+  "release": "48.0.0",
+  "date": "2026-11-08",
+  "title": "Vocabulary & Resource Intelligence",
+  "qa": {
+    "passed": 58,
+    "total": 58,
+    "failed": 0
+  },
+  "data": {
+    "indexed_records": 19000,
+    "complete_offline_bilingual_glossary": 677,
+    "daily_core_items": 672,
+    "daily_core_complete_gloss_and_pos": 672,
+    "daily_core_with_us_uk_ipa_fields": 672,
+    "pronunciation_only_records": 4000,
+    "us_ipa_fields_present": 15678,
+    "uk_ipa_fields_present": 11678,
+    "pos_fields_present": 4541,
+    "estimated_cefr_labels": 15000,
+    "cefr_not_assessed": 4000,
+    "articles": 61,
+    "sentence_patterns": 864,
+    "daily_plan_days": 84,
+    "daily_skill_slots": 336,
+    "listening_audio_files": 84
+  },
+  "regressions": {
+    "Stage 41": "QA: 21/21 PASS",
+    "Stage 42": "QA: 23/23 PASS",
+    "Stage 43": "QA: 39/39 PASS",
+    "Stage 44": "QA: 30/30 PASS",
+    "Stage 45": "QA: 33/33 PASS",
+    "Stage 46": "PASS",
+    "Stage 47 Task 1": "PASS",
+    "Stage 47 integration": "QA: 40/40 PASS"
+  },
+  "http_smoke": {
+    "passed": 11,
+    "total": 11
+  },
+  "browser_acceptance": {
+    "stage": 48,
+    "status": "BLOCKED_BY_ENVIRONMENT",
+    "attempted": true,
+    "browser": "Chromium 144 via Playwright",
+    "navigation": "http://127.0.0.1:<ephemeral-port>/",
+    "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+    "interpretation": "The execution environment blocked local browser navigation. This is not a product PASS or a confirmed product failure; interactive browser acceptance remains unverified.",
+    "required_follow_up": [
+      "Run tools/browser_acceptance_stage48.py in an environment that permits localhost browser navigation.",
+      "Test Stage 48 Vocabulary dashboard, daily pack, 19k search, SRS reveal gate and 390px mobile layout.",
+      "Perform Samsung A14 Chrome/Samsung Internet acceptance for install, offline, storage and audio."
+    ]
+  },
+  "critical_assets": {
+    "index.html": {
+      "bytes": 2031,
+      "sha256": "d85e392312b59c056aa6e25326fc0049f72b18a9452878443aae9d23631b6ae7"
+    },
+    "sw.js": {
+      "bytes": 3495,
+      "sha256": "9d1a687d220439232635451cd4802204de2ec9bf1852b230540ed81b3aad0ca4"
+    },
+    "manifest.webmanifest": {
+      "bytes": 2132,
+      "sha256": "27cde33af973dcbb75098530d4fc58a872504446c121f7d8d36b18029533b109"
+    },
+    "assets/css/stage48.css": {
+      "bytes": 2471,
+      "sha256": "3ea040c4a7157ae4e1e76dae97bbaae41c9aabe52bc4809d048bdd2cf8c88c2e"
+    },
+    "assets/js/app.js": {
+      "bytes": 878255,
+      "sha256": "8e98b857bc563f4329a435a3c195b7d11cdf5d24af0ae82c4a447f72d6cb665a"
+    },
+    "assets/js/core/vocabulary-engine.js": {
+      "bytes": 5599,
+      "sha256": "ee6f8c51819101d06c5406c94b45432f4e4963c4d70df483af8614e93be8a7e7"
+    },
+    "data/app-data.json": {
+      "bytes": 15408165,
+      "sha256": "4414a59df999c08b23bc6093edd28f2723790f1fe8f5e3217f1d8eec16952b15"
+    }
+  },
+  "notes": [
+    "19,000 denotes indexed search records, not 19,000 complete offline glossary entries.",
+    "CEFR labels are estimates, not official certification.",
+    "IPA field presence is not proof of expert or audio verification.",
+    "Chromium E2E and Samsung A14 physical acceptance remain pending."
+  ]
+}

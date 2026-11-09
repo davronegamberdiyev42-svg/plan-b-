@@ -1,0 +1,498 @@
+{
+  "stage": 49,
+  "passed": 76,
+  "total": 76,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "19,000 indexed word/phrase records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All word record IDs are unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All normalised headwords are unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84 daily vocabulary packs exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Every daily pack contains exactly 8 items",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "84-day core has 672 distinct items",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All 672 daily-core items have complete bilingual gloss + example + POS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All 672 daily-core items have US and UK IPA fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Total complete offline bilingual glossary coverage is 677",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4,000 pronunciation-only entries are explicitly classified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No pronunciation-only entry is misreported as full gloss",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "15,678 US IPA fields are present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11,678 UK IPA fields are present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11,678 records have both IPA fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4,541 part-of-speech fields are present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "15,000 CEFR labels are estimates and 4,000 are not assessed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Missing-field count is openly measurable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "The daily-core discrepancy IPA has its Cambridge source recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Vocabulary audit metadata matches actual bundled coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "61-article supplementary library remains intact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "864 sentence patterns remain intact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 CSS remains wired in final shell",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Vocabulary pure engine is imported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 search cache is constructed once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search merges legacy Stage 36, Stage 37 and current cache",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search persists query and resets pagination",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Daily pack maps IDs through stable Map rather than repeated linear scan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Transfer uses exact lexical token/phrase matching, not substring",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Daily vocabulary completion requires ≥6/8 recall + 2 target terms + 12 words",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Changing answers or transfer text invalidates stale completion result",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Review scheduler is SM-2-inspired and retains bounded history",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Again returns the word to same-day review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SRS ratings require the meaning to be revealed first",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Online cache drafts are blocked from SRS until user-verified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "SRS uses local calendar date keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Legacy Stage 37 SRS entries and favourites are surfaced and safely migrated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "CEFR estimates and IPA field provenance are clearly qualified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 vocabulary coverage panel discloses real counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 48 CSS contains mobile responsive styles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 responsive/a11y CSS provides mobile, touch, focus and reduced motion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 modules remain precached in current Stage 50 shell",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 42 offline audio cache continuity is preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All 84 listening MP3 files remain present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4-skill 84-day programme and Stage 47 resource map are intact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "PWA manifest uses deployment-relative id/scope/start URL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Manifest icons are relative and all resolve inside project",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML has CSP restricting scripts to same-origin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML includes strict-origin referrer policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Accessible skip link and focusable main landmark exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Backup engine rejects unsafe keys and validates state schema",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Backup engine adds SHA-256 and supports legacy backup import",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Import takes a pre-import snapshot and caps file size",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Audio exclusion from JSON backup is disclosed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Persistent storage request is user initiated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Offline status banner and online/offline listeners exist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Device diagnostics include quota, mic, ASR, SW and viewport",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 metadata records honest local-first limitations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Old audio cache name is preserved across release",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Stage 49 CSS is included in current shell precache",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JavaScript syntax: assets/js/app.js",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "JavaScript syntax: assets/js/core/backup-engine.js",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "JavaScript syntax: assets/js/core/vocabulary-engine.js",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "JavaScript syntax: assets/js/core/task1-intelligence.js",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "JavaScript syntax: assets/js/core/adaptive-engine.js",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "JavaScript syntax: sw.js",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "Vocabulary engine unit suite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Backup integrity and import validation suite",
+      "passed": true,
+      "detail": "STAGE 49 BACKUP ENGINE TESTS: 10/10 PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 41",
+      "passed": true,
+      "detail": "QA: 21/21 PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 42",
+      "passed": true,
+      "detail": "QA: 23/23 PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 43",
+      "passed": true,
+      "detail": "QA: 39/39 PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 44",
+      "passed": true,
+      "detail": "QA: 30/30 PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 45",
+      "passed": true,
+      "detail": "QA: 33/33 PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 46",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 47 Task 1",
+      "passed": true,
+      "detail": "PASS"
+    },
+    {
+      "name": "Inherited regression: Stage 47 integration",
+      "passed": true,
+      "detail": "QA: 40/40 PASS"
+    },
+    {
+      "name": "HTTP smoke: all 13 app/data/audio resources return 200",
+      "passed": true,
+      "detail": "/=200; /index.html=200; /manifest.webmanifest=200; /assets/css/stage47.css=200; /assets/css/stage48.css=200; /assets/css/stage49.css=200; /assets/js/app.js=200; /assets/js/core/backup-engine.js=200; /assets/js/core/vocabulary-engine.js=200; /data/app-data.json=200; /sw.js=200; /audio/listening-day-01.mp3=200; /audio/listening-day-84.mp3=200"
+    }
+  ],
+  "regressions": [
+    {
+      "label": "Stage 41",
+      "returncode": 0,
+      "summary": "QA: 21/21 PASS",
+      "tail": "STAGE 41 STATIC QA: 21/21 PASS\nPASS | Main HTML shell exists and references extracted modules | 2,705 bytes\nPASS | External app-data JSON parses\nPASS | 84-day curriculum | 84 days\nPASS | All four skills present on every day | 336/336 skill modules present\nPASS | Academic plan | IELTS Academic (learner-confirmed; this build targets IELTS Academic only).\nPASS | No mandatory daily minute quota in curriculum notes | plan notes inspected\nPASS | Reading question bank count | 840 questions\nPASS | Listening question bank count | 420 questions\nPASS | Searchable vocabulary index count | 19,000 entries\nPASS | Complete offline bilingual entries measured from fields | 677 complete entries\nPASS | Article library count | 61 articles\nPASS | Sentence pattern count | 864 patterns\nPASS | Reading source pack count | 12 packs\nPASS | Ten primary Stage 40 laboratories | reading, listening, writing, speaking, collocations, pronunciation, paraphrase, grammar, vocabulary, fluency\nPASS | 84 bundled listening audio files | 84 MP3 files\nPASS | All audio files non-empty | 57,539,664 bytes total\nPASS | External application ES module syntax | node --check passed\nPASS | Service worker JavaScript syntax | node --check passed\nPASS | Browser speech-recognition adapter exists | Web Speech API path found\nPASS | Microphone recording is separate from ASR | MediaRecorder and SpeechRecognition are separate browser APIs\nPASS | Server-side transcription endpoint absent | No bundled STT backend/API call detected\n"
+    },
+    {
+      "label": "Stage 42",
+      "returncode": 0,
+      "summary": "QA: 23/23 PASS",
+      "tail": "STAGE 42 STATIC QA: 23/23 PASS\nPASS | External app-data JSON remains valid and contains 84 days | parsed\nPASS | External module references are present\nPASS | Stage 42 release marker present\nPASS | Four transcript targets are explicitly scoped\nPASS | Final recognition results are committed\nPASS | Interim text is displayed but not saved as final\nPASS | Restart deduplication uses stable session base\nPASS | Recognition restart loop is bounded\nPASS | No-speech loop is bounded\nPASS | Manual and keyboard fallback controls exist\nPASS | Permission/network/unsupported errors are mapped\nPASS | Final transcripts autosave through app state\nPASS | Manual edits stop conflicting live ASR\nPASS | Speaking audio recording function is preserved\nPASS | Existing general Speaking recording remains intact\nPASS | Server STT limitation is disclosed in metadata\nPASS | Stage 42 UI status panel is present\nPASS | Service worker Stage 47 shell version, adaptive module and Stage 42 audio cache are preserved\nPASS | Existing app storage namespace is preserved\nPASS | External application ES module syntax | node --check passed\nPASS | Service worker JavaScript syntax | node --check passed\nPASS | Transcript helper unit tests | 8 pure helper assertions PASS\nPASS | Mocked recognition lifecycle (final commit, reconnect, stop, manual protection) | Recognition lifecycle simulation PASS\n\nLIMITATION: This script does not grant microphone permission and does not verify real device/browser speech recognition. Complete the Samsung A14 acceptance checklist in STAGE42_TRANSCRIPT_ACCEPTANCE_UZ.md.\n"
+    },
+    {
+      "label": "Stage 43",
+      "returncode": 0,
+      "summary": "QA: 39/39 PASS",
+      "tail": "lves: ./assets/css/app.css | exists\nPASS | Asset path resolves: ./assets/js/app.js | exists\nPASS | Asset path resolves: ./assets/js/core/data-loader.js | exists\nPASS | Asset path resolves: ./assets/js/core/boot-error.js | exists\nPASS | Asset path resolves: ./data/app-data.json | exists\nPASS | Data loader fetches content relative to deployment root | works with GitHub Pages project subpath\nPASS | Data loader validates schema and 84-day curriculum | shape and curriculum guards found\nPASS | Startup failure includes retry path | retry control found\nPASS | Existing localStorage namespace unchanged | legacy storage namespace preserved\nPASS | Existing IndexedDB audio database unchanged | IELTSBoostMedia v1 preserved\nPASS | Stage 42 transcript module preserved in runtime | transcript runtime retained\nPASS | Ten primary learning laboratories preserved | laboratory registry found\nPASS | Service worker cache namespace advanced to Stage 47 | Stage 46 shell cache generation\nPASS | Previously cached Stage 42 audio cache retained | offline listening cache continuity\nPASS | Service worker precaches all separated modules and data | Stage 43–45 app resources in CORE\nPASS | Every precached Stage 45 asset exists | all found\nPASS | JavaScript syntax: Application ES module | node --check PASS\nPASS | JavaScript syntax: Data loader module | node --check PASS\nPASS | JavaScript syntax: Boot error module | node --check PASS\nPASS | JavaScript syntax: Scoring engine module | node --check PASS\nPASS | JavaScript syntax: Service worker | node --check PASS\nPASS | 84 listening audio files remain bundled | 84 MP3 files\nPASS | All listening audio files are non-empty | all audio files exceed 10 KB\nLIMITATIONS: static/structural QA does not replace physical-device acceptance or full browser E2E validation.\n"
+    },
+    {
+      "label": "Stage 44",
+      "returncode": 0,
+      "summary": "QA: 30/30 PASS",
+      "tail": "tely identified | raw companion quiz is stored separately\nPASS | Writing criterion review uses four criteria | Task 1/Task 2 separate review\nPASS | Writing overall score applies Task 2 double weight | combined index uses 1:2\nPASS | Writing daily completion follows each day task1/task2/both requirement | daily assigned task can complete alone; both days require both reviews\nPASS | Speaking requires audio for pronunciation evidence | audio provenance stored\nPASS | Stage 35 writing PowerLab uses evidence-backed four-criterion review | separate practice mode assessment\nPASS | Stage 35 speaking PowerLab requires saved audio and four anchors | pronunciation review is audio-gated\nPASS | Assessment records keep source label, version, criterion evidence and scale | provenance-aware records\nPASS | No official IELTS band conversion in scoring engine | internal 0–10 practice scale only\nPASS | Saved assessment summary shown in four skill studios | source and evidence coverage visible after save\nPASS | Evidence coverage is explicitly not statistical confidence | not a statistical confidence interval\nPASS | AI/examiner provenance not falsely claimed as connected | no false live AI scoring claim in metadata\nPASS | 84-day Academic curriculum remains intact | plan=84, core=84\nPASS | All four mandatory skill modules remain on all days | 336/336 skill modules\nPASS | Writing daily task map contains only task1/task2/both | task1=17, task2=64, both=3\nPASS | 61-article library remains intact | 61 articles\nPASS | JavaScript syntax: application runtime | node --check PASS\nPASS | JavaScript syntax: scoring engine | node --check PASS\nPASS | JavaScript syntax: service worker | node --check PASS\nPASS | Executable scoring engine math and provenance tests | Scoring math and provenance assertions PASS\n"
+    },
+    {
+      "label": "Stage 45",
+      "returncode": 0,
+      "summary": "QA: 33/33 PASS",
+      "tail": ", core=84\nPASS | All four mandatory skill modules remain on all 84 days | 336/336\nPASS | 61-article supplemental library remains intact | 61\nPASS | Core day content has the required transfer sources | Reading, Listening, Writing Task 2 and Speaking Part 3 available\nPASS | JavaScript syntax: application runtime | node --check PASS\nPASS | JavaScript syntax: lab quality engine | node --check PASS\nPASS | JavaScript syntax: service worker | node --check PASS\nPASS | Executable Stage 45 quality / adaptive / transfer validation tests | Stage45 pure engine assertions PASS\nPASS | Stage 41 inherited regression suite | ing audio files | 84 MP3 files\nPASS | All audio files non-empty | 57,539,664 bytes total\nPASS | External application ES module syntax | node --check passed\nPASS | Service worker JavaScript syntax | node --check passed\nPASS | Browser speech-recognition adapter exists | Web Speech API path found\nPASS | Microphone recording is separate from ASR | MediaRecorder and SpeechRecognition are separate browser APIs\nPASS | Server-side transcription endpoint absent | No bundled STT backend/API call detected\n\nPASS | Stage 42 inherited regression suite | odule syntax | node --check passed\nPASS | Service worker JavaScript syntax | node --check passed\nPASS | Transcript helper unit tests | 8 pure helper assertions PASS\nPASS | Mocked recognition lifecycle (final commit, reconnect, stop, manual protection) | Recognition lifecycle simulation PASS\n\nLIMITATION: This script does not grant microphone permission and does not verify real device/browser speech recognition. Complete the Samsung A14 acceptance checklist in STAGE42_TRANSCRIPT_ACCEPTANCE_UZ.md.\n\nPASS | Stage 43 inherited regression suite | STAGE 43 QA: 39/39 PASS\nPASS | Stage 44 inherited regression suite | STAGE 44 QA: 30/30 PASS\n"
+    },
+    {
+      "label": "Stage 46",
+      "returncode": 0,
+      "summary": "PASS",
+      "tail": "{\n  \"version\": \"46.0.0\",\n  \"tests\": 47,\n  \"passed\": 47,\n  \"failed\": 0,\n  \"cases\": [\n    \"empty baseline\",\n    \"minimum sample gate\",\n    \"objective repair\",\n    \"strong objective stretch\",\n    \"criterion repair\",\n    \"self-review non-mastery\",\n    \"repeated error\",\n    \"trend recovery\",\n    \"listening key unavailable\",\n    \"lab objective evidence\",\n    \"four-skill evidence coverage\",\n    \"gentle/full adaptive plan\",\n    \"no time limit\",\n    \"mandatory curriculum preserved\",\n    \"application import wiring\",\n    \"Intelligence tab wiring\",\n    \"advisor markup\",\n    \"adaptive plan wiring\",\n    \"time limit disabled\",\n    \"release metadata\",\n    \"no false independent mastery UI label\",\n    \"criterion-map UI label\",\n    \"service worker module precache\",\n    \"legacy audio cache preserved\",\n    \"shell cache version\"\n  ]\n}\n"
+    },
+    {
+      "label": "Stage 47 Task 1",
+      "returncode": 0,
+      "summary": "PASS",
+      "tail": "{\n  \"version\": \"47.0.0\",\n  \"tests\": 19,\n  \"passed\": 19,\n  \"failed\": 0,\n  \"chartDays\": 84,\n  \"typeCounts\": {\n    \"line_graph\": 14,\n    \"bar_chart\": 14,\n    \"pie_chart\": 14,\n    \"table\": 14,\n    \"process\": 14,\n    \"map\": 14\n  },\n  \"cases\": [\n    \"84-day dataset validation\",\n    \"6 visual guides\",\n    \"6 valid visual fixture analysis\",\n    \"pie total integrity\",\n    \"process minimum stages\",\n    \"map pair integrity\",\n    \"series/label alignment\"\n  ]\n}\n"
+    },
+    {
+      "label": "Stage 47 integration",
+      "returncode": 0,
+      "summary": "QA: 40/40 PASS",
+      "tail": "st in 84 core days\nPASS | 84 MP3 tracks remain present and non-empty\nPASS | Task 1 visual engine: 84-day data + six chart fixtures + edge cases | {\n  \"version\": \"47.0.0\",\n  \"tests\": 19,\n  \"passed\": 19,\n  \"failed\": 0,\n  \"chartDays\": 84,\n  \"typeCounts\": {\n    \"line_graph\": 14,\n    \"bar_chart\": 14,\n    \"pie_chart\": 14,\n    \"table\": 14,\n    \"process\": 14,\n    \"map\": 14\n  },\n  \"cases\": [\n    \"84-day dataset validation\",\n    \"6 visual guides\",\n    \"6 valid visual fixture analysis\",\n    \"pie total integrity\",\n    \"process minimum stages\",\n    \"map pair integrity\",\n    \"series/label alignment\"\n  ]\n}\nPASS | 84-row resource mapping CSV is complete\nPASS | 84-row mapping agrees with app-data assignments\nPASS | 336-row mandatory skill resource audit is complete\nPASS | Each of 84 days has exactly 4 skill audit rows\nPASS | Every daily resource-audit row has a primary in-app material and source/rights note\nPASS | 84-row Task 1 visual audit is complete\nPASS | Task 2 prompts are 84 distinct originals\nPASS | Speaking daily pack has 252 Part 1, 84 Part 2 and 252 Part 3 prompts\nPASS | JavaScript syntax · assets/js/app.js | node --check PASS\nPASS | JavaScript syntax · assets/js/core/task1-intelligence.js | node --check PASS\nPASS | JavaScript syntax · assets/js/core/adaptive-engine.js | node --check PASS\nPASS | JavaScript syntax · assets/js/core/lab-quality-engine.js | node --check PASS\nPASS | JavaScript syntax · sw.js | node --check PASS\nPASS | HTTP local-server smoke test: 11 core resources return 200 | /=200; /index.html=200; /assets/css/stage47.css=200; /assets/css/stage48.css=200; /assets/js/app.js=200; /assets/js/core/task1-intelligence.js=200; /assets/js/core/vocabulary-engine.js=200; /data/app-data.json=200; /sw.js=200; /audio/listening-day-01.mp3=200; /audio/listening-day-84.mp3=200\n"
+    }
+  ],
+  "http": [
+    [
+      "/",
+      200
+    ],
+    [
+      "/index.html",
+      200
+    ],
+    [
+      "/manifest.webmanifest",
+      200
+    ],
+    [
+      "/assets/css/stage47.css",
+      200
+    ],
+    [
+      "/assets/css/stage48.css",
+      200
+    ],
+    [
+      "/assets/css/stage49.css",
+      200
+    ],
+    [
+      "/assets/js/app.js",
+      200
+    ],
+    [
+      "/assets/js/core/backup-engine.js",
+      200
+    ],
+    [
+      "/assets/js/core/vocabulary-engine.js",
+      200
+    ],
+    [
+      "/data/app-data.json",
+      200
+    ],
+    [
+      "/sw.js",
+      200
+    ],
+    [
+      "/audio/listening-day-01.mp3",
+      200
+    ],
+    [
+      "/audio/listening-day-84.mp3",
+      200
+    ]
+  ],
+  "limitations": [
+    "Static, data, module and HTTP checks do not replace full browser end-to-end tests.",
+    "Samsung A14 physical microphone, PWA installation and offline acceptance still require testing on the user device.",
+    "IPA field presence is not proof of expert/audio verification; CEFR values are estimates unless independently sense-verified.",
+    "Online lookup results remain drafts until the exact sense, source and Uzbek gloss are manually reviewed."
+  ]
+}
