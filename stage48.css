@@ -1,0 +1,31 @@
+/* Stage 48 — Vocabulary Intelligence layer */
+.p48-hero{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr);gap:18px;align-items:stretch;margin-top:14px;border:1px solid rgba(122,157,205,.28);background:linear-gradient(125deg,rgba(23,48,81,.88),rgba(13,28,48,.96));}
+.p48-hero-stat{display:flex;flex-direction:column;justify-content:center;gap:8px;background:rgba(7,19,36,.58)!important;}
+.p48-hero-stat>b{font-size:52px;line-height:1;font-weight:850;}
+.p48-kpis{margin:12px 0 14px;}
+.p48-audit{margin-bottom:14px;}
+.p48-coverage-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 20px;margin-top:14px;}
+.p48-coverage-grid>div{padding:12px;border:1px solid rgba(130,158,194,.18);border-radius:13px;background:rgba(255,255,255,.025);}
+.p48-coverage-grid small{display:block;color:var(--muted,#9eacc0);line-height:1.45;margin-top:7px;}
+.p48-source-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:16px;}
+.p48-source-notes>div{display:flex;flex-direction:column;gap:5px;padding:11px 12px;border-radius:12px;background:rgba(255,255,255,.035);border:1px solid rgba(130,158,194,.14);}
+.p48-source-notes span{font-size:12px;line-height:1.45;color:var(--muted,#9eacc0);}
+.p48-core-summary{display:grid;grid-template-columns:auto 1fr auto 1fr;gap:7px 10px;align-items:center;padding:12px;margin-top:12px;border-radius:12px;background:rgba(255,255,255,.035);}
+.p48-core-summary>b{font-size:21px;}
+.p48-core-summary>span{font-size:12px;color:var(--muted,#9eacc0);}
+.p48-word .vx-back{margin-top:12px;}
+.p48-collocation-box{display:flex;flex-direction:column;gap:9px;margin-top:16px;padding:14px;border:1px solid rgba(124,166,215,.24);border-radius:14px;background:rgba(50,92,137,.08);}
+.p48-collocation-box .input{width:100%;}
+.p48-srs-row{padding:13px 0;border-bottom:1px solid rgba(135,157,189,.16);display:flex;flex-direction:column;gap:9px;}
+.p48-srs-row:last-child{border-bottom:0;}
+.p48-srs-row details{padding:9px 11px;border-radius:10px;background:rgba(255,255,255,.035);}
+.p48-srs-row details summary{cursor:pointer;font-size:13px;font-weight:650;}
+.p48-srs-row small{display:block;margin-top:5px;}
+.p48-srs-row .row{gap:7px;flex-wrap:wrap;}
+@media(max-width:760px){
+ .p48-hero{grid-template-columns:1fr;}
+ .p48-hero-stat>b{font-size:42px;}
+ .p48-coverage-grid,.p48-source-notes{grid-template-columns:1fr;}
+ .p48-core-summary{grid-template-columns:auto 1fr;}
+ .p48-srs-row .btn{flex:1 1 40%;}
+}

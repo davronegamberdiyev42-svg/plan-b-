@@ -1,0 +1,10 @@
+/* IELTS Boost Final Release 50 — release identity and final acceptance disclosures */
+.stage50-release-panel{border:1px solid rgba(67,205,164,.38);background:linear-gradient(135deg,rgba(19,70,77,.22),rgba(12,29,67,.42));border-radius:18px;padding:16px;margin-top:14px}
+.stage50-release-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.stage50-release-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:13px}
+.stage50-release-stat{border:1px solid var(--line,rgba(255,255,255,.12));border-radius:12px;padding:10px;min-width:0}
+.stage50-release-stat b{display:block;font-size:1.25rem;line-height:1.25}
+.stage50-release-stat small{display:block;color:var(--muted,#aab7d5);margin-top:4px}
+.stage50-release-note{font-size:.86rem;line-height:1.55;color:var(--muted,#aab7d5);margin:12px 0 0}
+@media(max-width:760px){.stage50-release-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stage50-release-panel{padding:13px}}
+@media(max-width:360px){.stage50-release-grid{grid-template-columns:1fr 1fr}.stage50-release-stat{padding:8px}.stage50-release-stat b{font-size:1.1rem}}

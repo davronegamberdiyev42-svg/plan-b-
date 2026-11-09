@@ -1,0 +1,36 @@
+/* IELTS Boost Stage 47 — resource pack and Academic Task 1 masterclass */
+.s47-resource-pack,.s47-companion,.s47-task1-master{border:1px solid rgba(112,169,226,.32);background:linear-gradient(140deg,rgba(34,68,108,.24),rgba(14,28,55,.22));border-radius:18px;padding:16px;margin:12px 0;min-width:0}
+.s47-resource-head,.s47-task1-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.s47-eyebrow{font-size:.69rem;letter-spacing:.12em;text-transform:uppercase;color:#78b9e9;font-weight:800}
+.s47-pill{display:inline-flex;align-items:center;gap:6px;border:1px solid rgba(89,190,155,.35);border-radius:999px;padding:5px 9px;font-size:.72rem;color:#9ae6c6;background:rgba(24,119,82,.12)}
+.s47-muted{color:var(--muted,#9eabc3);font-size:.83rem;line-height:1.55}
+.s47-pack-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:12px}
+.s47-pack-item{background:rgba(7,17,39,.38);border:1px solid rgba(125,155,190,.16);border-radius:12px;padding:11px;min-width:0}
+.s47-pack-item b{display:block;font-size:.9rem;margin-bottom:5px}
+.s47-pack-item small{display:block;color:var(--muted,#9eabc3);line-height:1.45}
+.s47-companion-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:12px;margin-top:12px}
+.s47-source-link{display:inline-flex;align-items:center;gap:7px;padding:10px 13px;border-radius:10px;background:rgba(41,112,173,.2);border:1px solid rgba(102,171,230,.34);color:#cce8ff;text-decoration:none;font-weight:750;margin-top:8px}
+.s47-source-link:hover{background:rgba(41,112,173,.32)}
+.s47-task-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+.s47-task-section{background:rgba(7,17,39,.28);border:1px solid rgba(125,155,190,.18);border-radius:13px;padding:13px;min-width:0}
+.s47-task-section h4{margin:0 0 8px;font-size:.95rem}
+.s47-task-section ul,.s47-task-section ol{padding-left:19px;margin:8px 0 0}
+.s47-task-section li{margin:5px 0;line-height:1.5;font-size:.86rem}
+.s47-facts{display:grid;gap:6px;margin:9px 0 0;padding:0;list-style:none}
+.s47-facts li{padding:8px 10px;border-left:3px solid #70b7de;background:rgba(16,43,72,.28);border-radius:6px;font-size:.82rem;line-height:1.5}
+.s47-overview-example{padding:12px;border-radius:12px;background:rgba(31,101,79,.15);border:1px solid rgba(94,190,151,.24);line-height:1.65}
+.s47-planner{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.s47-planner label{display:block;font-size:.78rem;font-weight:750;margin-bottom:5px}
+.s47-planner textarea{min-height:82px;width:100%;box-sizing:border-box}
+.s47-status{font-size:.8rem;color:#a8d9c6;margin-top:8px;min-height:1.3em}
+.s47-type-tabs{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0}
+.s47-type-chip{padding:5px 9px;border-radius:999px;border:1px solid rgba(120,155,190,.26);font-size:.74rem;color:var(--muted,#9eabc3)}
+.s47-resource-foot{font-size:.76rem;line-height:1.5;color:var(--muted,#9eabc3);margin-top:10px}
+.s47-check-row{display:flex;align-items:flex-start;gap:8px;margin-top:10px;font-size:.8rem;color:var(--muted,#9eabc3)}
+.s47-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:10px}
+.s47-source-list a{display:block;padding:9px;border:1px solid rgba(130,160,190,.18);border-radius:10px;text-decoration:none;color:inherit;background:rgba(6,15,35,.25)}
+.s47-source-list a b{display:block;font-size:.83rem}
+.s47-source-list a small{display:block;color:var(--muted,#9eabc3);font-size:.72rem;line-height:1.4;margin-top:3px}
+@media(max-width:900px){.s47-pack-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.s47-companion-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.s47-task-grid,.s47-planner,.s47-source-list{grid-template-columns:1fr}.s47-resource-pack,.s47-companion,.s47-task1-master{padding:12px;border-radius:14px}.s47-pack-grid{gap:7px}.s47-pack-item{padding:9px}}
+.s47-data-inspector{margin:12px 0;background:var(--card-bg,rgba(127,127,127,.06))}.s47-data-table-wrap{overflow-x:auto;margin-top:10px}.s47-data-table{border-collapse:collapse;min-width:100%;width:100%;font-size:.88rem}.s47-data-table th,.s47-data-table td{padding:9px 10px;border-bottom:1px solid var(--border-color,rgba(127,127,127,.22));text-align:left;white-space:nowrap}.s47-data-table thead th{font-weight:700}.s47-data-table tbody th{font-weight:600}.s47-process-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px;list-style:none;padding:0;margin:12px 0}.s47-process-steps li{display:flex;align-items:flex-start;gap:9px;padding:10px;border:1px solid var(--border-color,rgba(127,127,127,.2));border-radius:10px}.s47-process-steps li span{display:inline-grid;place-items:center;min-width:24px;height:24px;border-radius:50%;background:var(--surface-secondary,rgba(127,127,127,.12));font-weight:700}.s47-map-compare{display:grid;gap:6px;margin-top:10px}.s47-map-compare>div{display:grid;grid-template-columns:1fr 24px 1fr;align-items:center;gap:8px;padding:9px;border-bottom:1px solid var(--border-color,rgba(127,127,127,.2))}.s47-map-compare b{text-align:center;color:var(--accent)}.s47-task1-rule{margin-top:12px}.s47-task1-rule p{margin:6px 0 0}
